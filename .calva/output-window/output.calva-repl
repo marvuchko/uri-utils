@@ -1,0 +1,2101 @@
+; This is the Calva evaluation results output window.
+; TIPS: The keyboard shortcut `ctrl+alt+o o` shows and focuses this window
+;   when connected to a REPL session.
+; Please see https://calva.io/output/ for more info.
+; Happy coding! ♥️
+
+; Connecting ...
+; No nrepl port file found.
+; Bad url: localhost:
+; Jacking in...
+; Starting Jack-in Terminal: lein update-in :dependencies conj '[nrepl,"1.0.0"]' -- update-in :plugins conj '[cider/cider-nrepl,"0.28.5"]' -- update-in '[:repl-options,:nrepl-middleware]' conj '["cider.nrepl/cider-middleware"]' -- repl :headless
+; Hooking up nREPL sessions...
+; Connected session: clj
+; TIPS:
+;   - You can edit the contents here. Use it as a REPL if you like.
+;   - `alt+enter` evaluates the current top level form.
+;   - `ctrl+enter` evaluates the current form.
+;   - `alt+up` and `alt+down` traverse up and down the REPL command history
+;      when the cursor is after the last contents at the prompt
+;   - Clojure lines in stack traces are peekable and clickable.
+clj꞉uri-utils.core꞉>  ; Use `alt+enter` to evaluate
+; Jack-in done.
+clj꞉uri-utils.core꞉> 
+#'uri-utils.core/foo
+clj꞉uri-utils.core꞉> 
+; Execution error (ArityException) at uri-utils.core/eval7706 (form-init2880119147775363611.clj:8).
+; Wrong number of args (0) passed to: uri-utils.core/foo
+clj꞉uri-utils.core꞉> 
+; Execution error (ArityException) at uri-utils.core/eval7708 (form-init2880119147775363611.clj:8).
+; Wrong number of args (0) passed to: uri-utils.core/foo
+clj꞉uri-utils.core꞉> 
+1 Hello, World!
+nil
+clj꞉uri-utils.core꞉> 
+#'uri-utils.core/foo
+clj꞉uri-utils.core꞉> 
+1 Hello, World!
+nil
+clj꞉uri-utils.core꞉> 
+; nREPL Connection was closed
+; Jacking in...
+; Starting Jack-in Terminal: lein update-in :dependencies conj '[nrepl,"1.0.0"]' -- update-in :plugins conj '[cider/cider-nrepl,"0.28.5"]' -- update-in '[:repl-options,:nrepl-middleware]' conj '["cider.nrepl/cider-middleware"]' -- repl :headless
+; Hooking up nREPL sessions...
+; Connected session: clj
+; TIPS:
+;   - You can edit the contents here. Use it as a REPL if you like.
+;   - `alt+enter` evaluates the current top level form.
+;   - `ctrl+enter` evaluates the current form.
+;   - `alt+up` and `alt+down` traverse up and down the REPL command history
+;      when the cursor is after the last contents at the prompt
+;   - Clojure lines in stack traces are peekable and clickable.
+clj꞉uri-utils.core꞉> 
+; Jack-in done.
+clj꞉uri-utils.core꞉> 
+nil
+clj꞉uri-utils.parser.regex-parser꞉> 
+#'uri-utils.parser.regex-parser/uri-regex
+clj꞉uri-utils.parser.regex-parser꞉> 
+#'uri-utils.parser.regex-parser/from-string
+clj꞉uri-utils.parser.regex-parser꞉> 
+; Execution error (IllegalStateException) at java.util.regex.Matcher/group (Matcher.java:644).
+; No match found
+clj꞉uri-utils.parser.regex-parser꞉> 
+; Execution error (IllegalStateException) at java.util.regex.Matcher/group (Matcher.java:644).
+; No match found
+clj꞉uri-utils.parser.regex-parser꞉> 
+#'uri-utils.parser.regex-parser/from-string
+clj꞉uri-utils.parser.regex-parser꞉> 
+; Execution error (IllegalStateException) at java.util.regex.Matcher/group (Matcher.java:644).
+; No match found
+clj꞉uri-utils.parser.regex-parser꞉> 
+#'uri-utils.parser.regex-parser/uri-regex
+clj꞉uri-utils.parser.regex-parser꞉> 
+#'uri-utils.parser.regex-parser/from-string
+clj꞉uri-utils.parser.regex-parser꞉> 
+; Execution error (IllegalStateException) at java.util.regex.Matcher/group (Matcher.java:644).
+; No match found
+clj꞉uri-utils.parser.regex-parser꞉> 
+#'uri-utils.parser.regex-parser/uri-regex
+clj꞉uri-utils.parser.regex-parser꞉> 
+#'uri-utils.parser.regex-parser/from-string
+clj꞉uri-utils.parser.regex-parser꞉> 
+; Execution error (IllegalStateException) at java.util.regex.Matcher/group (Matcher.java:644).
+; No match found
+clj꞉uri-utils.parser.regex-parser꞉> 
+#'uri-utils.parser.regex-parser/uri-regex
+clj꞉uri-utils.parser.regex-parser꞉> 
+#'uri-utils.parser.regex-parser/from-string
+clj꞉uri-utils.parser.regex-parser꞉> 
+; Execution error (IllegalStateException) at java.util.regex.Matcher/group (Matcher.java:644).
+; No match found
+clj꞉uri-utils.parser.regex-parser꞉> 
+#'uri-utils.parser.regex-parser/from-string
+clj꞉uri-utils.parser.regex-parser꞉> 
+; Execution error (IllegalStateException) at java.util.regex.Matcher/group (Matcher.java:644).
+; No match found
+clj꞉uri-utils.parser.regex-parser꞉> 
+#'uri-utils.parser.regex-parser/uri-regex
+clj꞉uri-utils.parser.regex-parser꞉> 
+#'uri-utils.parser.regex-parser/from-string
+clj꞉uri-utils.parser.regex-parser꞉> 
+; Execution error (IllegalStateException) at java.util.regex.Matcher/group (Matcher.java:644).
+; No match found
+clj꞉uri-utils.parser.regex-parser꞉> 
+#'uri-utils.parser.regex-parser/from-string
+clj꞉uri-utils.parser.regex-parser꞉> 
+#object[java.util.regex.Matcher 0x13c40c84 "java.util.regex.Matcher[pattern=http://google.com/search region=0,28 lastmatch=]"]
+clj꞉uri-utils.parser.regex-parser꞉> 
+#'uri-utils.parser.regex-parser/from-string
+clj꞉uri-utils.parser.regex-parser꞉> 
+; Execution error (IllegalStateException) at java.util.regex.Matcher/group (Matcher.java:644).
+; No match found
+clj꞉uri-utils.parser.regex-parser꞉> 
+#'uri-utils.parser.regex-parser/uri-regex
+clj꞉uri-utils.parser.regex-parser꞉> 
+#'uri-utils.parser.regex-parser/from-string
+clj꞉uri-utils.parser.regex-parser꞉> 
+; Execution error (IllegalStateException) at java.util.regex.Matcher/group (Matcher.java:644).
+; No match found
+clj꞉uri-utils.parser.regex-parser꞉> 
+; Execution error (IllegalStateException) at java.util.regex.Matcher/group (Matcher.java:644).
+; No match found
+clj꞉uri-utils.parser.regex-parser꞉> 
+#'uri-utils.parser.regex-parser/from-string
+clj꞉uri-utils.parser.regex-parser꞉> 
+; Execution error (IllegalStateException) at java.util.regex.Matcher/group (Matcher.java:644).
+; No match found
+clj꞉uri-utils.parser.regex-parser꞉> 
+#'uri-utils.parser.regex-parser/uri-regex
+clj꞉uri-utils.parser.regex-parser꞉> 
+#'uri-utils.parser.regex-parser/from-string
+clj꞉uri-utils.parser.regex-parser꞉> 
+; Execution error (IllegalStateException) at java.util.regex.Matcher/group (Matcher.java:644).
+; No match found
+clj꞉uri-utils.parser.regex-parser꞉> 
+nil
+clj꞉uri-utils.parser.regex-parser꞉> 
+#'uri-utils.parser.regex-parser/uri-regex
+clj꞉uri-utils.parser.regex-parser꞉> 
+#'uri-utils.parser.regex-parser/from-string
+clj꞉uri-utils.parser.regex-parser꞉> 
+; Execution error (IllegalStateException) at java.util.regex.Matcher/group (Matcher.java:644).
+; No match found
+clj꞉uri-utils.parser.regex-parser꞉> 
+#'uri-utils.parser.regex-parser/from-string
+clj꞉uri-utils.parser.regex-parser꞉> 
+[]
+clj꞉uri-utils.parser.regex-parser꞉> 
+#'uri-utils.parser.regex-parser/uri-regex
+clj꞉uri-utils.parser.regex-parser꞉> 
+#'uri-utils.parser.regex-parser/from-string
+clj꞉uri-utils.parser.regex-parser꞉> 
+{:left nil, :right #error {
+ :cause "No match found"
+ :via
+ [{:type java.lang.IllegalStateException
+   :message "No match found"
+   :at [java.util.regex.Matcher group "Matcher.java" 644]}]
+ :trace
+ [[java.util.regex.Matcher group "Matcher.java" 644]
+  [clojure.core$re_groups invokeStatic "core.clj" 4896]
+  [clojure.core$re_groups invoke "core.clj" 4883]
+  [uri_utils.parser.regex_parser$from_string invokeStatic "form-init11764668099929752962.clj" 12]
+  [uri_utils.parser.regex_parser$from_string invoke "form-init11764668099929752962.clj" 8]
+  [uri_utils.parser.regex_parser$eval7943 invokeStatic "form-init11764668099929752962.clj" 18]
+  [uri_utils.parser.regex_parser$eval7943 invoke "form-init11764668099929752962.clj" 18]
+  [clojure.lang.Compiler eval "Compiler.java" 7194]
+  [clojure.lang.Compiler eval "Compiler.java" 7149]
+  [clojure.core$eval invokeStatic "core.clj" 3215]
+  [clojure.core$eval invoke "core.clj" 3211]
+  [nrepl.middleware.interruptible_eval$evaluate$fn__1269$fn__1270 invoke "interruptible_eval.clj" 87]
+  [clojure.lang.AFn applyToHelper "AFn.java" 152]
+  [clojure.lang.AFn applyTo "AFn.java" 144]
+  [clojure.core$apply invokeStatic "core.clj" 667]
+  [clojure.core$with_bindings_STAR_ invokeStatic "core.clj" 1990]
+  [clojure.core$with_bindings_STAR_ doInvoke "core.clj" 1990]
+  [clojure.lang.RestFn invoke "RestFn.java" 425]
+  [nrepl.middleware.interruptible_eval$evaluate$fn__1269 invoke "interruptible_eval.clj" 87]
+  [clojure.main$repl$read_eval_print__9206$fn__9209 invoke "main.clj" 437]
+  [clojure.main$repl$read_eval_print__9206 invoke "main.clj" 437]
+  [clojure.main$repl$fn__9215 invoke "main.clj" 458]
+  [clojure.main$repl invokeStatic "main.clj" 458]
+  [clojure.main$repl doInvoke "main.clj" 368]
+  [clojure.lang.RestFn invoke "RestFn.java" 1523]
+  [nrepl.middleware.interruptible_eval$evaluate invokeStatic "interruptible_eval.clj" 84]
+  [nrepl.middleware.interruptible_eval$evaluate invoke "interruptible_eval.clj" 56]
+  [nrepl.middleware.interruptible_eval$interruptible_eval$fn__1302$fn__1306 invoke "interruptible_eval.clj" 152]
+  [clojure.lang.AFn run "AFn.java" 22]
+  [nrepl.middleware.session$session_exec$main_loop__1372$fn__1376 invoke "session.clj" 218]
+  [nrepl.middleware.session$session_exec$main_loop__1372 invoke "session.clj" 217]
+  [clojure.lang.AFn run "AFn.java" 22]
+  [java.lang.Thread run "Thread.java" 833]]}}
+clj꞉uri-utils.parser.regex-parser꞉> 
+#'uri-utils.parser.regex-parser/from-string
+clj꞉uri-utils.parser.regex-parser꞉> 
+; Execution error (UnsupportedOperationException) at uri-utils.parser.regex-parser/from-string (form-init11764668099929752962.clj:16).
+; nth not supported on this type: IllegalStateException
+clj꞉uri-utils.parser.regex-parser꞉> 
+#'uri-utils.parser.regex-parser/from-string
+clj꞉uri-utils.parser.regex-parser꞉> 
+{:left nil, :right {:cause nil, :via nil}}
+clj꞉uri-utils.parser.regex-parser꞉> 
+#'uri-utils.parser.regex-parser/from-string
+clj꞉uri-utils.parser.regex-parser꞉> 
+{:left nil, :right {:cause nil, :via nil}}
+clj꞉uri-utils.parser.regex-parser꞉> 
+#'uri-utils.parser.regex-parser/from-string
+clj꞉uri-utils.parser.regex-parser꞉> 
+{:left nil, :right {:cause nil, :via nil}}
+clj꞉uri-utils.parser.regex-parser꞉> 
+#'uri-utils.parser.regex-parser/from-string
+clj꞉uri-utils.parser.regex-parser꞉> 
+{:left nil, :right {:cause nil, :via nil}}
+clj꞉uri-utils.parser.regex-parser꞉> 
+nil
+clj꞉uri-utils.parser.regex-parser꞉> 
+#'uri-utils.parser.regex-parser/uri-regex
+clj꞉uri-utils.parser.regex-parser꞉> 
+#'uri-utils.parser.regex-parser/from-string
+clj꞉uri-utils.parser.regex-parser꞉> 
+{:left nil, :right {:cause nil, :via nil}}
+clj꞉uri-utils.parser.regex-parser꞉> 
+; Syntax error compiling at (src/uri_utils/parser/regex_parser.clj:12:35).
+; Unable to resolve symbol: uri-regex in this context
+clj꞉uri-utils.parser.regex-parser꞉> 
+; Syntax error compiling at (src/uri_utils/parser/regex_parser.clj:12:35).
+; Unable to resolve symbol: uri-regex in this context
+clj꞉uri-utils.parser.regex-parser꞉> 
+; Syntax error compiling at (src/uri_utils/parser/regex_parser.clj:12:35).
+; Unable to resolve symbol: uri-regex in this context
+clj꞉uri-utils.parser.regex-parser꞉> 
+; Syntax error compiling at (src/uri_utils/parser/regex_parser.clj:12:35).
+; Unable to resolve symbol: uri-regex in this context
+clj꞉uri-utils.parser.regex-parser꞉> 
+; Syntax error compiling at (src/uri_utils/parser/regex_parser.clj:12:35).
+; Unable to resolve symbol: uri-regex in this context
+clj꞉uri-utils.parser.regex-parser꞉> 
+; Syntax error compiling at (src/uri_utils/parser/regex_parser.clj:12:35).
+; Unable to resolve symbol: uri-regex in this context
+clj꞉uri-utils.parser.regex-parser꞉> 
+; Syntax error compiling at (src/uri_utils/parser/regex_parser.clj:12:35).
+; Unable to resolve symbol: uri-regex in this context
+clj꞉uri-utils.parser.regex-parser꞉> 
+; Syntax error compiling at (src/uri_utils/parser/regex_parser.clj:12:35).
+; Unable to resolve symbol: uri-regex in this context
+clj꞉uri-utils.parser.regex-parser꞉> 
+; Syntax error compiling at (src/uri_utils/parser/regex_parser.clj:12:35).
+; Unable to resolve symbol: uri-regex in this context
+clj꞉uri-utils.parser.regex-parser꞉> 
+#'uri-utils.util.operators/from-string
+clj꞉uri-utils.util.operators꞉> 
+{:left nil, :right {:cause nil, :via nil}}
+clj꞉uri-utils.parser.regex-parser꞉> 
+{:left nil, :right {:cause nil, :via nil}}
+clj꞉uri-utils.parser.regex-parser꞉> 
+#'uri-utils.parser.regex-parser/from-string
+clj꞉uri-utils.parser.regex-parser꞉> 
+nil
+clj꞉uri-utils.parser.regex-parser꞉> 
+nil
+clj꞉uri-utils.parser.regex-parser꞉> 
+#'uri-utils.parser.regex-parser/from-string
+clj꞉uri-utils.parser.regex-parser꞉> 
+{:right #error {
+ :cause "No match found"
+ :via
+ [{:type java.lang.IllegalStateException
+   :message "No match found"
+   :at [java.util.regex.Matcher group "Matcher.java" 644]}]
+ :trace
+ [[java.util.regex.Matcher group "Matcher.java" 644]
+  [clojure.core$re_groups invokeStatic "core.clj" 4896]
+  [clojure.core$re_groups invoke "core.clj" 4883]
+  [uri_utils.parser.regex_parser$from_string invokeStatic "form-init11764668099929752962.clj" 12]
+  [uri_utils.parser.regex_parser$from_string invoke "form-init11764668099929752962.clj" 8]
+  [uri_utils.parser.regex_parser$eval8000 invokeStatic "form-init11764668099929752962.clj" 15]
+  [uri_utils.parser.regex_parser$eval8000 invoke "form-init11764668099929752962.clj" 15]
+  [clojure.lang.Compiler eval "Compiler.java" 7194]
+  [clojure.lang.Compiler eval "Compiler.java" 7149]
+  [clojure.core$eval invokeStatic "core.clj" 3215]
+  [clojure.core$eval invoke "core.clj" 3211]
+  [nrepl.middleware.interruptible_eval$evaluate$fn__1269$fn__1270 invoke "interruptible_eval.clj" 87]
+  [clojure.lang.AFn applyToHelper "AFn.java" 152]
+  [clojure.lang.AFn applyTo "AFn.java" 144]
+  [clojure.core$apply invokeStatic "core.clj" 667]
+  [clojure.core$with_bindings_STAR_ invokeStatic "core.clj" 1990]
+  [clojure.core$with_bindings_STAR_ doInvoke "core.clj" 1990]
+  [clojure.lang.RestFn invoke "RestFn.java" 425]
+  [nrepl.middleware.interruptible_eval$evaluate$fn__1269 invoke "interruptible_eval.clj" 87]
+  [clojure.main$repl$read_eval_print__9206$fn__9209 invoke "main.clj" 437]
+  [clojure.main$repl$read_eval_print__9206 invoke "main.clj" 437]
+  [clojure.main$repl$fn__9215 invoke "main.clj" 458]
+  [clojure.main$repl invokeStatic "main.clj" 458]
+  [clojure.main$repl doInvoke "main.clj" 368]
+  [clojure.lang.RestFn invoke "RestFn.java" 1523]
+  [nrepl.middleware.interruptible_eval$evaluate invokeStatic "interruptible_eval.clj" 84]
+  [nrepl.middleware.interruptible_eval$evaluate invoke "interruptible_eval.clj" 56]
+  [nrepl.middleware.interruptible_eval$interruptible_eval$fn__1302$fn__1306 invoke "interruptible_eval.clj" 152]
+  [clojure.lang.AFn run "AFn.java" 22]
+  [nrepl.middleware.session$session_exec$main_loop__1372$fn__1376 invoke "session.clj" 218]
+  [nrepl.middleware.session$session_exec$main_loop__1372 invoke "session.clj" 217]
+  [clojure.lang.AFn run "AFn.java" 22]
+  [java.lang.Thread run "Thread.java" 833]]}}
+clj꞉uri-utils.parser.regex-parser꞉> 
+#'uri-utils.util.operators/some
+; WARNING: some already refers to: #'clojure.core/some in namespace: uri-utils.util.operators, being replaced by: #'uri-utils.util.operators/some
+clj꞉uri-utils.util.operators꞉> 
+#'uri-utils.util.operators/some
+clj꞉uri-utils.util.operators꞉> 
+{:left 1}
+clj꞉uri-utils.util.operators꞉> 
+{:right nil}
+clj꞉uri-utils.util.operators꞉> 
+{:left 1}
+clj꞉uri-utils.util.operators꞉> 
+#'uri-utils.util.operators/either
+clj꞉uri-utils.util.operators꞉> 
+{:left 1}
+clj꞉uri-utils.util.operators꞉> 
+{:left 1}
+clj꞉uri-utils.util.operators꞉> 
+#'uri-utils.util.operators/either
+clj꞉uri-utils.util.operators꞉> 
+{:left 1}
+clj꞉uri-utils.util.operators꞉> 
+#'uri-utils.util.operators/either
+clj꞉uri-utils.util.operators꞉> 
+#'uri-utils.parser.regex-parser/from-string
+clj꞉uri-utils.parser.regex-parser꞉> 
+{:right #error {
+ :cause "No match found"
+ :via
+ [{:type java.lang.IllegalStateException
+   :message "No match found"
+   :at [java.util.regex.Matcher group "Matcher.java" 644]}]
+ :trace
+ [[java.util.regex.Matcher group "Matcher.java" 644]
+  [clojure.core$re_groups invokeStatic "core.clj" 4896]
+  [clojure.core$re_groups invoke "core.clj" 4883]
+  [uri_utils.parser.regex_parser$from_string invokeStatic "form-init11764668099929752962.clj" 12]
+  [uri_utils.parser.regex_parser$from_string invoke "form-init11764668099929752962.clj" 8]
+  [uri_utils.parser.regex_parser$eval8024 invokeStatic "form-init11764668099929752962.clj" 15]
+  [uri_utils.parser.regex_parser$eval8024 invoke "form-init11764668099929752962.clj" 15]
+  [clojure.lang.Compiler eval "Compiler.java" 7194]
+  [clojure.lang.Compiler eval "Compiler.java" 7149]
+  [clojure.core$eval invokeStatic "core.clj" 3215]
+  [clojure.core$eval invoke "core.clj" 3211]
+  [nrepl.middleware.interruptible_eval$evaluate$fn__1269$fn__1270 invoke "interruptible_eval.clj" 87]
+  [clojure.lang.AFn applyToHelper "AFn.java" 152]
+  [clojure.lang.AFn applyTo "AFn.java" 144]
+  [clojure.core$apply invokeStatic "core.clj" 667]
+  [clojure.core$with_bindings_STAR_ invokeStatic "core.clj" 1990]
+  [clojure.core$with_bindings_STAR_ doInvoke "core.clj" 1990]
+  [clojure.lang.RestFn invoke "RestFn.java" 425]
+  [nrepl.middleware.interruptible_eval$evaluate$fn__1269 invoke "interruptible_eval.clj" 87]
+  [clojure.main$repl$read_eval_print__9206$fn__9209 invoke "main.clj" 437]
+  [clojure.main$repl$read_eval_print__9206 invoke "main.clj" 437]
+  [clojure.main$repl$fn__9215 invoke "main.clj" 458]
+  [clojure.main$repl invokeStatic "main.clj" 458]
+  [clojure.main$repl doInvoke "main.clj" 368]
+  [clojure.lang.RestFn invoke "RestFn.java" 1523]
+  [nrepl.middleware.interruptible_eval$evaluate invokeStatic "interruptible_eval.clj" 84]
+  [nrepl.middleware.interruptible_eval$evaluate invoke "interruptible_eval.clj" 56]
+  [nrepl.middleware.interruptible_eval$interruptible_eval$fn__1302$fn__1306 invoke "interruptible_eval.clj" 152]
+  [clojure.lang.AFn run "AFn.java" 22]
+  [nrepl.middleware.session$session_exec$main_loop__1372$fn__1376 invoke "session.clj" 218]
+  [nrepl.middleware.session$session_exec$main_loop__1372 invoke "session.clj" 217]
+  [clojure.lang.AFn run "AFn.java" 22]
+  [java.lang.Thread run "Thread.java" 833]]}}
+clj꞉uri-utils.parser.regex-parser꞉> 
+#'uri-utils.parser.regex-parser/from-string
+clj꞉uri-utils.parser.regex-parser꞉> 
+{:right {:cause nil, :via nil}}
+clj꞉uri-utils.parser.regex-parser꞉> 
+#'uri-utils.parser.regex-parser/from-string
+clj꞉uri-utils.parser.regex-parser꞉> 
+{:right {:cause nil}}
+clj꞉uri-utils.parser.regex-parser꞉> 
+#'uri-utils.parser.regex-parser/from-string
+clj꞉uri-utils.parser.regex-parser꞉> 
+[]
+clj꞉uri-utils.parser.regex-parser꞉> 
+#object[java.util.regex.Matcher 0x704e12b1 "java.util.regex.Matcher[pattern=(http|https)(:\\/\\/)?([a-zA-Z.]+)?([\\/a-zA-Z]+)([?])?([a-zA-Z0-9=&]+)? region=0,21 lastmatch=]"]
+clj꞉uri-utils.parser.regex-parser꞉> 
+#'uri-utils.parser.regex-parser/uri-regex
+clj꞉uri-utils.parser.regex-parser꞉> 
+#'uri-utils.parser.regex-parser/from-string
+clj꞉uri-utils.parser.regex-parser꞉> 
+[]
+clj꞉uri-utils.parser.regex-parser꞉> 
+#object[java.util.regex.Matcher 0x66bfcb21 "java.util.regex.Matcher[pattern=/(http|https)(:\\/\\/)?([a-zA-Z.]+)?([\\/a-zA-Z]+)([?])?([a-zA-Z0-9=&]+)?/s region=0,21 lastmatch=]"]
+clj꞉uri-utils.parser.regex-parser꞉> 
+nil
+clj꞉uri-utils.parser.regex-parser꞉> 
+; Execution error (NullPointerException) at uri-utils.parser.regex-parser/eval8047 (form-init11764668099929752962.clj:17).
+; Cannot invoke "java.util.regex.Matcher.groupCount()" because "m" is null
+clj꞉uri-utils.parser.regex-parser꞉> 
+#'uri-utils.parser.regex-parser/from-string
+clj꞉uri-utils.parser.regex-parser꞉> 
+; Execution error (IllegalStateException) at java.util.regex.Matcher/group (Matcher.java:644).
+; No match found
+clj꞉uri-utils.parser.regex-parser꞉> 
+; Execution error (IllegalStateException) at java.util.regex.Matcher/group (Matcher.java:644).
+; No match found
+clj꞉uri-utils.parser.regex-parser꞉> 
+#'uri-utils.parser.regex-parser/from-string
+clj꞉uri-utils.parser.regex-parser꞉> 
+#'uri-utils.parser.regex-parser/from-string
+clj꞉uri-utils.parser.regex-parser꞉> 
+[]
+clj꞉uri-utils.parser.regex-parser꞉> 
+#'uri-utils.parser.regex-parser/uri-regex
+clj꞉uri-utils.parser.regex-parser꞉> 
+#'uri-utils.parser.regex-parser/from-string
+clj꞉uri-utils.parser.regex-parser꞉> 
+[]
+clj꞉uri-utils.parser.regex-parser꞉> 
+#"(http|https)"
+clj꞉uri-utils.parser.regex-parser꞉> 
+["http" "http"]
+clj꞉uri-utils.parser.regex-parser꞉> 
+#object[java.util.regex.Matcher 0x282442da "java.util.regex.Matcher[pattern=(http|https) region=0,4 lastmatch=]"]
+clj꞉uri-utils.parser.regex-parser꞉> 
+; Execution error (IllegalStateException) at java.util.regex.Matcher/group (Matcher.java:644).
+; No match found
+clj꞉uri-utils.parser.regex-parser꞉> 
+["http" "http"]
+clj꞉uri-utils.parser.regex-parser꞉> 
+; Execution error (ClassCastException) at uri-utils.parser.regex-parser/eval8072 (form-init11764668099929752962.clj:17).
+; class clojure.lang.PersistentVector cannot be cast to class java.util.regex.Matcher (clojure.lang.PersistentVector is in unnamed module of loader 'app'; java.util.regex.Matcher is in module java.base of loader 'bootstrap')
+clj꞉uri-utils.parser.regex-parser꞉> 
+#'uri-utils.parser.regex-parser/from-string
+clj꞉uri-utils.parser.regex-parser꞉> 
+[]
+clj꞉uri-utils.parser.regex-parser꞉> 
+#'uri-utils.parser.regex-parser/uri-regex
+clj꞉uri-utils.parser.regex-parser꞉> 
+#'uri-utils.parser.regex-parser/from-string
+clj꞉uri-utils.parser.regex-parser꞉> 
+[]
+clj꞉uri-utils.parser.regex-parser꞉> 
+#"(http|https)"
+clj꞉uri-utils.parser.regex-parser꞉> 
+; Syntax error compiling at (src/uri_utils/parser/regex_parser.clj:17:13).
+; Unable to resolve symbol: uri-regex-pattern in this context
+clj꞉uri-utils.parser.regex-parser꞉> 
+#'uri-utils.parser.regex-parser/uri-regex-pattern
+clj꞉uri-utils.parser.regex-parser꞉> 
+#"/(http|https)(:\/\/)?([a-zA-Z.]+)?([\/a-zA-Z]+)([?])?([a-zA-Z0-9=&]+)?/s"
+clj꞉uri-utils.parser.regex-parser꞉> 
+#'uri-utils.parser.regex-parser/from-string
+clj꞉uri-utils.parser.regex-parser꞉> 
+[]
+clj꞉uri-utils.parser.regex-parser꞉> 
+#'uri-utils.parser.regex-parser/uri-regex-pattern
+clj꞉uri-utils.parser.regex-parser꞉> 
+nil
+clj꞉uri-utils.parser.regex-parser꞉> 
+#'uri-utils.parser.regex-parser/uri-regex-pattern
+clj꞉uri-utils.parser.regex-parser꞉> 
+#'uri-utils.parser.regex-parser/uri-regex-pattern
+clj꞉uri-utils.parser.regex-parser꞉> 
+["http://www.google.com/search" "http" "://" "www.google.com" "/search" nil nil]
+clj꞉uri-utils.parser.regex-parser꞉> 
+; Execution error (ClassCastException) at uri-utils.parser.regex-parser/eval8097 (form-init11764668099929752962.clj:17).
+; class clojure.lang.PersistentVector cannot be cast to class java.util.regex.Matcher (clojure.lang.PersistentVector is in unnamed module of loader 'app'; java.util.regex.Matcher is in module java.base of loader 'bootstrap')
+clj꞉uri-utils.parser.regex-parser꞉> 
+#'uri-utils.parser.regex-parser/uri-regex-pattern
+clj꞉uri-utils.parser.regex-parser꞉> 
+nil
+clj꞉uri-utils.parser.regex-parser꞉> 
+#'uri-utils.parser.regex-parser/uri-regex-pattern
+clj꞉uri-utils.parser.regex-parser꞉> 
+nil
+clj꞉uri-utils.parser.regex-parser꞉> 
+#'uri-utils.parser.regex-parser/uri-regex-pattern
+clj꞉uri-utils.parser.regex-parser꞉> 
+["http://www.google.com/search" "http" "://" "www.google.com" "/search" nil nil]
+clj꞉uri-utils.parser.regex-parser꞉> 
+#'uri-utils.parser.regex-parser/from-string
+clj꞉uri-utils.parser.regex-parser꞉> 
+; Execution error (ClassCastException) at uri-utils.parser.regex-parser/from-string (form-init11764668099929752962.clj:12).
+; class clojure.lang.PersistentVector cannot be cast to class java.util.regex.Matcher (clojure.lang.PersistentVector is in unnamed module of loader 'app'; java.util.regex.Matcher is in module java.base of loader 'bootstrap')
+clj꞉uri-utils.parser.regex-parser꞉> 
+#'uri-utils.parser.regex-parser/from-string
+clj꞉uri-utils.parser.regex-parser꞉> 
+; Execution error (ClassCastException) at uri-utils.parser.regex-parser/from-string (form-init11764668099929752962.clj:12).
+; class clojure.lang.PersistentVector cannot be cast to class java.util.regex.Matcher (clojure.lang.PersistentVector is in unnamed module of loader 'app'; java.util.regex.Matcher is in module java.base of loader 'bootstrap')
+clj꞉uri-utils.parser.regex-parser꞉> 
+#'uri-utils.parser.regex-parser/from-string
+clj꞉uri-utils.parser.regex-parser꞉> 
+["http://www.google.com/search" "http" "://" "www.google.com" "/search" nil nil]
+clj꞉uri-utils.parser.regex-parser꞉> 
+#'uri-utils.parser.regex-parser/from-string
+clj꞉uri-utils.parser.regex-parser꞉> 
+; Execution error (IllegalArgumentException) at uri-utils.parser.regex-parser/from-string (form-init11764668099929752962.clj:11).
+; Don't know how to create ISeq from: java.util.regex.Matcher
+clj꞉uri-utils.parser.regex-parser꞉> 
+#'uri-utils.parser.regex-parser/from-string
+clj꞉uri-utils.parser.regex-parser꞉> 
+; Execution error (IllegalArgumentException) at uri-utils.parser.regex-parser/from-string (form-init11764668099929752962.clj:11).
+; Don't know how to create ISeq from: java.util.regex.Matcher
+clj꞉uri-utils.parser.regex-parser꞉> 
+#'uri-utils.parser.regex-parser/from-string
+clj꞉uri-utils.parser.regex-parser꞉> 
+("http://www.google.com/search" "http" "://" "www.google.com" "/search" nil nil)
+clj꞉uri-utils.parser.regex-parser꞉> 
+#'uri-utils.parser.regex-parser/from-string
+clj꞉uri-utils.parser.regex-parser꞉> 
+("http" "://" "www.google.com" "/search" nil nil)
+clj꞉uri-utils.parser.regex-parser꞉> 
+#'uri-utils.parser.regex-parser/from-string
+clj꞉uri-utils.parser.regex-parser꞉> 
+{:schema "http://www.google.com/search", :host "://", :path "www.google.com", :query "/search"}
+clj꞉uri-utils.parser.regex-parser꞉> 
+#'uri-utils.parser.regex-parser/from-string
+clj꞉uri-utils.parser.regex-parser꞉> 
+{:schema "http", :host "www.google.com", :path "/search", :query nil}
+clj꞉uri-utils.parser.regex-parser꞉> 
+; Syntax error compiling at (src/uri_utils/parser/regex_parser.clj:17:1).
+; Unable to resolve symbol: string->uri in this context
+clj꞉uri-utils.parser.regex-parser꞉> 
+#'uri-utils.parser.regex-parser/string->uri
+clj꞉uri-utils.parser.regex-parser꞉> 
+{:schema "http", :host "www.google.com", :path "/search", :query nil}
+clj꞉uri-utils.parser.regex-parser꞉> 
+#'uri-utils.parser.regex-parser/string->uri
+clj꞉uri-utils.parser.regex-parser꞉> 
+{:schema "http", :host "www.google.com", :path "/search", :query nil}
+clj꞉uri-utils.parser.regex-parser꞉> 
+#'uri-utils.parser.regex-parser/uri-regex-pattern
+clj꞉uri-utils.parser.regex-parser꞉> 
+#'uri-utils.parser.regex-parser/string->uri
+clj꞉uri-utils.parser.regex-parser꞉> 
+{:schema "http", :host "www.google.com", :path "/search", :query nil}
+clj꞉uri-utils.parser.regex-parser꞉> 
+{:schema "http", :host "www.google.com", :path "/search", :query nil}
+clj꞉uri-utils.parser.regex-parser꞉> 
+; Syntax error compiling at (src/uri_utils/parser/regex_parser.clj:1:7932).
+; Can't take value of a macro: #'clojure.core/comment
+clj꞉uri-utils.parser.regex-parser꞉> 
+#'uri-utils.parser.regex-parser/string->uri
+clj꞉uri-utils.parser.regex-parser꞉> 
+{:schema "http", :host "www.google.com", :path "/search", :query nil}
+clj꞉uri-utils.parser.regex-parser꞉> 
+{:schema "http", :host "www.google.com", :path "/search", :query nil}
+clj꞉uri-utils.parser.regex-parser꞉> 
+{:schema "http", :host "www.google.com", :path "/search", :query nil}
+clj꞉uri-utils.parser.regex-parser꞉> 
+#'uri-utils.parser.regex-parser/string->uri
+clj꞉uri-utils.parser.regex-parser꞉> 
+{:schema "http", :host "www.google.com", :path "/search", :query nil}
+clj꞉uri-utils.parser.regex-parser꞉> 
+; Syntax error compiling at (src/uri_utils/parser/regex_parser.clj:8:47).
+; No such namespace: c
+clj꞉uri-utils.parser.regex-parser꞉> 
+#'uri-utils.common/uri-regex-pattern
+clj꞉uri-utils.common꞉> 
+; Syntax error compiling at (src/uri_utils/parser/regex_parser.clj:8:47).
+; No such namespace: c
+clj꞉uri-utils.parser.regex-parser꞉> 
+nil
+clj꞉uri-utils.parser.regex-parser꞉> 
+#'uri-utils.parser.regex-parser/string->uri
+clj꞉uri-utils.parser.regex-parser꞉> 
+#'uri-utils.parser.regex-parser/query->map
+clj꞉uri-utils.parser.regex-parser꞉> 
+nil
+clj꞉uri-utils.parser.regex-parser꞉> 
+#'uri-utils.parser.regex-parser/query->map
+clj꞉uri-utils.parser.regex-parser꞉> 
+["" nil nil]
+clj꞉uri-utils.parser.regex-parser꞉> 
+#'uri-utils.parser.regex-parser/query->map
+clj꞉uri-utils.parser.regex-parser꞉> 
+["name=Marko" "name=Marko"]
+clj꞉uri-utils.parser.regex-parser꞉> 
+["name=Marko" "name=Marko"]
+clj꞉uri-utils.parser.regex-parser꞉> 
+#'uri-utils.parser.regex-parser/query->map
+clj꞉uri-utils.parser.regex-parser꞉> 
+["name=Marko" "name=Marko"]
+clj꞉uri-utils.parser.regex-parser꞉> 
+["name=Marko" "name=Marko"]
+clj꞉uri-utils.parser.regex-parser꞉> 
+#'uri-utils.parser.regex-parser/query->map
+clj꞉uri-utils.parser.regex-parser꞉> 
+["name=Marko" "name=Marko"]
+clj꞉uri-utils.parser.regex-parser꞉> 
+#'uri-utils.parser.regex-parser/query->map
+clj꞉uri-utils.parser.regex-parser꞉> 
+["name=Marko" "name=Marko"]
+clj꞉uri-utils.parser.regex-parser꞉> 
+#'uri-utils.parser.regex-parser/query->map
+clj꞉uri-utils.parser.regex-parser꞉> 
+["name=Marko" "name=Marko"]
+clj꞉uri-utils.parser.regex-parser꞉> 
+#'uri-utils.parser.regex-parser/iterate-query-matches
+clj꞉uri-utils.parser.regex-parser꞉> 
+#'uri-utils.parser.regex-parser/query->map
+clj꞉uri-utils.parser.regex-parser꞉> 
+; Execution error (ArityException) at uri-utils.parser.regex-parser/iterate-query-matches (form-init11764668099929752962.clj:14).
+; Wrong number of args (0) passed to: clojure.lang.PersistentVector
+clj꞉uri-utils.parser.regex-parser꞉> 
+#'uri-utils.parser.regex-parser/query->map
+clj꞉uri-utils.parser.regex-parser꞉> 
+; Execution error (ClassCastException) at uri-utils.parser.regex-parser/iterate-query-matches (form-init11764668099929752962.clj:14).
+; class clojure.lang.PersistentList cannot be cast to class clojure.lang.IFn (clojure.lang.PersistentList and clojure.lang.IFn are in unnamed module of loader 'app')
+clj꞉uri-utils.parser.regex-parser꞉> 
+#'uri-utils.parser.regex-parser/query->map
+clj꞉uri-utils.parser.regex-parser꞉> 
+; Execution error (ArityException) at uri-utils.parser.regex-parser/iterate-query-matches (form-init11764668099929752962.clj:14).
+; Wrong number of args (0) passed to: clojure.lang.PersistentVector
+clj꞉uri-utils.parser.regex-parser꞉> 
+; Execution error (ArityException) at uri-utils.parser.regex-parser/iterate-query-matches (form-init11764668099929752962.clj:14).
+; Wrong number of args (0) passed to: clojure.lang.PersistentVector
+clj꞉uri-utils.parser.regex-parser꞉> 
+#'uri-utils.parser.regex-parser/query->map
+clj꞉uri-utils.parser.regex-parser꞉> 
+; Execution error (ArityException) at uri-utils.parser.regex-parser/iterate-query-matches (form-init11764668099929752962.clj:14).
+; Wrong number of args (0) passed to: clojure.lang.PersistentVector
+clj꞉uri-utils.parser.regex-parser꞉> 
+#'uri-utils.parser.regex-parser/query->map
+clj꞉uri-utils.parser.regex-parser꞉> 
+; Execution error (ArityException) at uri-utils.parser.regex-parser/iterate-query-matches (form-init11764668099929752962.clj:14).
+; Wrong number of args (0) passed to: clojure.lang.PersistentVector
+clj꞉uri-utils.parser.regex-parser꞉> 
+#'uri-utils.parser.regex-parser/iterate-query-matches
+clj꞉uri-utils.parser.regex-parser꞉> 
+#'uri-utils.parser.regex-parser/query->map
+clj꞉uri-utils.parser.regex-parser꞉> 
+; Execution error (ArityException) at uri-utils.parser.regex-parser/iterate-query-matches (form-init11764668099929752962.clj:10).
+; Wrong number of args (0) passed to: clojure.lang.PersistentVector
+clj꞉uri-utils.parser.regex-parser꞉> 
+#'uri-utils.parser.regex-parser/iterate-query-matches
+clj꞉uri-utils.parser.regex-parser꞉> 
+#'uri-utils.parser.regex-parser/query->map
+clj꞉uri-utils.parser.regex-parser꞉> 
+; Execution error (IllegalArgumentException) at uri-utils.parser.regex-parser/iterate-query-matches (form-init11764668099929752962.clj:12).
+; Unrecognized type [["name=Marko" "name=Marko"]]
+clj꞉uri-utils.parser.regex-parser꞉> 
+#'uri-utils.parser.regex-parser/query->map
+clj꞉uri-utils.parser.regex-parser꞉> 
+#'uri-utils.parser.regex-parser/iterate-query-matches
+clj꞉uri-utils.parser.regex-parser꞉> 
+; Execution error (ArityException) at uri-utils.parser.regex-parser/iterate-query-matches (form-init11764668099929752962.clj:10).
+; Wrong number of args (0) passed to: clojure.lang.PersistentVector
+clj꞉uri-utils.parser.regex-parser꞉> 
+#'uri-utils.parser.regex-parser/iterate-query-matches
+clj꞉uri-utils.parser.regex-parser꞉> 
+#'uri-utils.parser.regex-parser/iterate-query-matches
+clj꞉uri-utils.parser.regex-parser꞉> 
+#'uri-utils.parser.regex-parser/query->map
+clj꞉uri-utils.parser.regex-parser꞉> 
+; Execution error (ClassCastException) at uri-utils.parser.regex-parser/iterate-query-matches (form-init11764668099929752962.clj:10).
+; class clojure.lang.LazySeq cannot be cast to class clojure.lang.IFn (clojure.lang.LazySeq and clojure.lang.IFn are in unnamed module of loader 'app')
+clj꞉uri-utils.parser.regex-parser꞉> 
+#'uri-utils.parser.regex-parser/iterate-query-matches
+clj꞉uri-utils.parser.regex-parser꞉> 
+#'uri-utils.parser.regex-parser/query->map
+clj꞉uri-utils.parser.regex-parser꞉> 
+; Execution error (ArityException) at uri-utils.parser.regex-parser/iterate-query-matches (form-init11764668099929752962.clj:10).
+; Wrong number of args (0) passed to: clojure.lang.PersistentVector
+clj꞉uri-utils.parser.regex-parser꞉> 
+#'uri-utils.parser.regex-parser/iterate-query-matches
+clj꞉uri-utils.parser.regex-parser꞉> 
+#'uri-utils.parser.regex-parser/query->map
+clj꞉uri-utils.parser.regex-parser꞉> 
+; Execution error (ArityException) at uri-utils.parser.regex-parser/iterate-query-matches (form-init11764668099929752962.clj:10).
+; Wrong number of args (0) passed to: clojure.lang.PersistentVector
+clj꞉uri-utils.parser.regex-parser꞉> 
+#'uri-utils.parser.regex-parser/query->map
+clj꞉uri-utils.parser.regex-parser꞉> 
+#'uri-utils.parser.regex-parser/iterate-query-matches
+clj꞉uri-utils.parser.regex-parser꞉> 
+#'uri-utils.parser.regex-parser/query->map
+clj꞉uri-utils.parser.regex-parser꞉> 
+; Execution error (ArityException) at uri-utils.parser.regex-parser/iterate-query-matches (form-init11764668099929752962.clj:10).
+; Wrong number of args (0) passed to: clojure.lang.PersistentVector
+clj꞉uri-utils.parser.regex-parser꞉> 
+#'uri-utils.parser.regex-parser/query->map
+clj꞉uri-utils.parser.regex-parser꞉> 
+; Execution error (ArityException) at uri-utils.parser.regex-parser/iterate-query-matches (form-init11764668099929752962.clj:10).
+; Wrong number of args (0) passed to: clojure.lang.PersistentVector
+clj꞉uri-utils.parser.regex-parser꞉> 
+#'uri-utils.parser.regex-parser/query->map
+clj꞉uri-utils.parser.regex-parser꞉> 
+; Execution error (ArityException) at uri-utils.parser.regex-parser/iterate-query-matches (form-init11764668099929752962.clj:10).
+; Wrong number of args (0) passed to: clojure.lang.PersistentVector
+clj꞉uri-utils.parser.regex-parser꞉> 
+#'uri-utils.parser.regex-parser/iterate-query-matches
+clj꞉uri-utils.parser.regex-parser꞉> 
+#'uri-utils.parser.regex-parser/query->map
+clj꞉uri-utils.parser.regex-parser꞉> 
+; Execution error (ArityException) at uri-utils.parser.regex-parser/iterate-query-matches (form-init11764668099929752962.clj:10).
+; Wrong number of args (0) passed to: clojure.lang.PersistentVector
+clj꞉uri-utils.parser.regex-parser꞉> 
+#'uri-utils.parser.regex-parser/iterate-query-matches
+clj꞉uri-utils.parser.regex-parser꞉> 
+#'uri-utils.parser.regex-parser/query->map
+clj꞉uri-utils.parser.regex-parser꞉> 
+; Execution error (ArityException) at uri-utils.parser.regex-parser/iterate-query-matches (form-init11764668099929752962.clj:10).
+; Wrong number of args (0) passed to: clojure.lang.PersistentVector
+clj꞉uri-utils.parser.regex-parser꞉> 
+#'uri-utils.parser.regex-parser/iterate-query-matches
+clj꞉uri-utils.parser.regex-parser꞉> 
+#'uri-utils.parser.regex-parser/iterate-query-matches
+clj꞉uri-utils.parser.regex-parser꞉> 
+#'uri-utils.parser.regex-parser/query->map
+clj꞉uri-utils.parser.regex-parser꞉> 
+; Execution error (ArityException) at uri-utils.parser.regex-parser/iterate-query-matches (form-init11764668099929752962.clj:10).
+; Wrong number of args (0) passed to: clojure.lang.PersistentVector
+clj꞉uri-utils.parser.regex-parser꞉> 
+#'uri-utils.parser.regex-parser/iterate-query-matches
+clj꞉uri-utils.parser.regex-parser꞉> 
+#'uri-utils.parser.regex-parser/iterate-query-matches
+clj꞉uri-utils.parser.regex-parser꞉> 
+#'uri-utils.parser.regex-parser/query->map
+clj꞉uri-utils.parser.regex-parser꞉> 
+[[nil]]
+clj꞉uri-utils.parser.regex-parser꞉> 
+#'uri-utils.parser.regex-parser/iterate-query-matches
+clj꞉uri-utils.parser.regex-parser꞉> 
+#'uri-utils.parser.regex-parser/query->map
+clj꞉uri-utils.parser.regex-parser꞉> 
+[[[]]]
+clj꞉uri-utils.parser.regex-parser꞉> 
+#'uri-utils.parser.regex-parser/iterate-query-matches
+clj꞉uri-utils.parser.regex-parser꞉> 
+#'uri-utils.parser.regex-parser/query->map
+clj꞉uri-utils.parser.regex-parser꞉> 
+[["name=Mark0" "name=Mark0"] [["" nil] nil]]
+clj꞉uri-utils.parser.regex-parser꞉> 
+#'uri-utils.parser.regex-parser/iterate-query-matches
+clj꞉uri-utils.parser.regex-parser꞉> 
+#'uri-utils.parser.regex-parser/query->map
+clj꞉uri-utils.parser.regex-parser꞉> 
+((nil ["" nil] ([])) ["name=Mark0" "name=Mark0"] [])
+clj꞉uri-utils.parser.regex-parser꞉> 
+((((nil ["" nil] ((([])))) ["age=27" "age=27"] (([]))) ["" nil] ([])) ["name=Marko" "name=Marko"] [])
+clj꞉uri-utils.parser.regex-parser꞉> 
+#'uri-utils.parser.regex-parser/iterate-query-matches
+clj꞉uri-utils.parser.regex-parser꞉> 
+#'uri-utils.parser.regex-parser/query->map
+clj꞉uri-utils.parser.regex-parser꞉> 
+((((((((([]))))) ["" nil] ((([])))) ["age=27" "age=27"] (([]))) ["" nil] ([])) ["name=Marko" "name=Marko"] [])
+clj꞉uri-utils.parser.regex-parser꞉> 
+#'uri-utils.parser.regex-parser/iterate-query-matches
+clj꞉uri-utils.parser.regex-parser꞉> 
+#'uri-utils.parser.regex-parser/query->map
+clj꞉uri-utils.parser.regex-parser꞉> 
+((((([])))))
+clj꞉uri-utils.parser.regex-parser꞉> 
+#'uri-utils.parser.regex-parser/iterate-query-matches
+clj꞉uri-utils.parser.regex-parser꞉> 
+#'uri-utils.parser.regex-parser/query->map
+clj꞉uri-utils.parser.regex-parser꞉> 
+((((([]) ["name=Marko" "name=Marko"]) ["" nil]) ["age=27" "age=27"]) ["" nil])
+clj꞉uri-utils.parser.regex-parser꞉> 
+#'uri-utils.parser.regex-parser/iterate-query-matches
+clj꞉uri-utils.parser.regex-parser꞉> 
+#'uri-utils.parser.regex-parser/query->map
+clj꞉uri-utils.parser.regex-parser꞉> 
+nil
+clj꞉uri-utils.parser.regex-parser꞉> 
+#'uri-utils.parser.regex-parser/query->map
+clj꞉uri-utils.parser.regex-parser꞉> 
+((((([]) ["name=Marko" "name=Marko"]) ["" nil]) ["age=27" "age=27"]) ["" nil])
+clj꞉uri-utils.parser.regex-parser꞉> 
+#'uri-utils.parser.regex-parser/iterate-query-matches
+clj꞉uri-utils.parser.regex-parser꞉> 
+#'uri-utils.parser.regex-parser/query->map
+clj꞉uri-utils.parser.regex-parser꞉> 
+; nREPL Connection was closed
+; Jacking in...
+; Aborting jack-in. No project type selected.
+; Jacking in...
+; Starting Jack-in Terminal: lein update-in :dependencies conj '[nrepl,"1.0.0"]' -- update-in :plugins conj '[cider/cider-nrepl,"0.28.5"]' -- update-in '[:repl-options,:nrepl-middleware]' conj '["cider.nrepl/cider-middleware"]' -- repl :headless
+; Hooking up nREPL sessions...
+; Connected session: clj
+; TIPS:
+;   - You can edit the contents here. Use it as a REPL if you like.
+;   - `alt+enter` evaluates the current top level form.
+;   - `ctrl+enter` evaluates the current form.
+;   - `alt+up` and `alt+down` traverse up and down the REPL command history
+;      when the cursor is after the last contents at the prompt
+;   - Clojure lines in stack traces are peekable and clickable.
+clj꞉uri-utils.core꞉> 
+; Jack-in done.
+clj꞉uri-utils.core꞉> 
+; Syntax error compiling at (src/uri_utils/parser/regex_parser.clj:12:1).
+; Unable to resolve symbol: defn- in this context
+clj꞉uri-utils.parser.regex-parser꞉> 
+; Syntax error compiling at (src/uri_utils/parser/regex_parser.clj:18:1).
+; Unable to resolve symbol: query->map in this context
+clj꞉uri-utils.parser.regex-parser꞉> 
+nil
+clj꞉uri-utils.parser.regex-parser꞉> 
+#'uri-utils.parser.regex-parser/iterate-query-matches
+clj꞉uri-utils.parser.regex-parser꞉> 
+#'uri-utils.parser.regex-parser/query->map
+clj꞉uri-utils.parser.regex-parser꞉> 
+; Execution error (ClassCastException) at uri-utils.parser.regex-parser/iterate-query-matches (form-init9636181124178355279.clj:10).
+; class java.util.regex.Matcher cannot be cast to class clojure.lang.IFn (java.util.regex.Matcher is in module java.base of loader 'bootstrap'; clojure.lang.IFn is in unnamed module of loader 'app')
+clj꞉uri-utils.parser.regex-parser꞉> 
+#'uri-utils.parser.regex-parser/query->map
+clj꞉uri-utils.parser.regex-parser꞉> 
+; Syntax error compiling at (src/uri_utils/parser/regex_parser.clj:15:4).
+; Unable to resolve symbol: query in this context
+clj꞉uri-utils.parser.regex-parser꞉> 
+#'uri-utils.parser.regex-parser/query->map
+clj꞉uri-utils.parser.regex-parser꞉> 
+; Execution error (ClassCastException) at uri-utils.parser.regex-parser/iterate-query-matches (form-init9636181124178355279.clj:10).
+; class java.util.regex.Matcher cannot be cast to class clojure.lang.IFn (java.util.regex.Matcher is in module java.base of loader 'bootstrap'; clojure.lang.IFn is in unnamed module of loader 'app')
+clj꞉uri-utils.parser.regex-parser꞉> 
+; Execution error (ClassCastException) at uri-utils.parser.regex-parser/iterate-query-matches (form-init9636181124178355279.clj:10).
+; class java.util.regex.Matcher cannot be cast to class clojure.lang.IFn (java.util.regex.Matcher is in module java.base of loader 'bootstrap'; clojure.lang.IFn is in unnamed module of loader 'app')
+clj꞉uri-utils.parser.regex-parser꞉> 
+#'uri-utils.parser.regex-parser/iterate-query-matches
+clj꞉uri-utils.parser.regex-parser꞉> 
+#'uri-utils.parser.regex-parser/query->map
+clj꞉uri-utils.parser.regex-parser꞉> 
+#'uri-utils.parser.regex-parser/matcher
+clj꞉uri-utils.parser.regex-parser꞉> 
+["name=Marko" "name=Marko"]
+clj꞉uri-utils.parser.regex-parser꞉> 
+["" nil]
+clj꞉uri-utils.parser.regex-parser꞉> 
+nil
+clj꞉uri-utils.parser.regex-parser꞉> 
+nil
+clj꞉uri-utils.parser.regex-parser꞉> 
+#'uri-utils.parser.regex-parser/iterate-query-matches
+clj꞉uri-utils.parser.regex-parser꞉> 
+#'uri-utils.parser.regex-parser/query->map
+clj꞉uri-utils.parser.regex-parser꞉> 
+#'uri-utils.parser.regex-parser/matcher
+clj꞉uri-utils.parser.regex-parser꞉> 
+; Execution error (ClassCastException) at uri-utils.parser.regex-parser/iterate-query-matches (form-init9636181124178355279.clj:10).
+; class java.util.regex.Matcher cannot be cast to class clojure.lang.IFn (java.util.regex.Matcher is in module java.base of loader 'bootstrap'; clojure.lang.IFn is in unnamed module of loader 'app')
+clj꞉uri-utils.parser.regex-parser꞉> 
+#'uri-utils.parser.regex-parser/query->map
+clj꞉uri-utils.parser.regex-parser꞉> 
+; Execution error (ClassCastException) at uri-utils.parser.regex-parser/iterate-query-matches (form-init9636181124178355279.clj:10).
+; class java.util.regex.Matcher cannot be cast to class clojure.lang.IFn (java.util.regex.Matcher is in module java.base of loader 'bootstrap'; clojure.lang.IFn is in unnamed module of loader 'app')
+clj꞉uri-utils.parser.regex-parser꞉> 
+#'uri-utils.parser.regex-parser/query->map
+clj꞉uri-utils.parser.regex-parser꞉> 
+; Execution error (ClassCastException) at uri-utils.parser.regex-parser/iterate-query-matches (form-init9636181124178355279.clj:10).
+; class java.util.regex.Matcher cannot be cast to class clojure.lang.IFn (java.util.regex.Matcher is in module java.base of loader 'bootstrap'; clojure.lang.IFn is in unnamed module of loader 'app')
+clj꞉uri-utils.parser.regex-parser꞉> 
+[["name=Marko" "name=Marko"]]
+clj꞉uri-utils.parser.regex-parser꞉> 
+#'uri-utils.parser.regex-parser/query->map
+clj꞉uri-utils.parser.regex-parser꞉> 
+; Execution error (ClassCastException) at uri-utils.parser.regex-parser/iterate-query-matches (form-init9636181124178355279.clj:10).
+; class java.util.regex.Matcher cannot be cast to class clojure.lang.IFn (java.util.regex.Matcher is in module java.base of loader 'bootstrap'; clojure.lang.IFn is in unnamed module of loader 'app')
+clj꞉uri-utils.parser.regex-parser꞉> 
+[["" nil]]
+clj꞉uri-utils.parser.regex-parser꞉> 
+[]
+clj꞉uri-utils.parser.regex-parser꞉> 
+[]
+clj꞉uri-utils.parser.regex-parser꞉> 
+[]
+clj꞉uri-utils.parser.regex-parser꞉> 
+#'uri-utils.parser.regex-parser/query->map
+clj꞉uri-utils.parser.regex-parser꞉> 
+; Execution error (ClassCastException) at uri-utils.parser.regex-parser/iterate-query-matches (form-init9636181124178355279.clj:10).
+; class java.util.regex.Matcher cannot be cast to class clojure.lang.IFn (java.util.regex.Matcher is in module java.base of loader 'bootstrap'; clojure.lang.IFn is in unnamed module of loader 'app')
+clj꞉uri-utils.parser.regex-parser꞉> 
+[]
+clj꞉uri-utils.parser.regex-parser꞉> 
+[]
+clj꞉uri-utils.parser.regex-parser꞉> 
+nil
+clj꞉uri-utils.parser.regex-parser꞉> 
+#function[uri-utils.parser.regex-parser/iterate-query-matches]
+clj꞉uri-utils.parser.regex-parser꞉> 
+#'uri-utils.parser.regex-parser/query->map
+clj꞉uri-utils.parser.regex-parser꞉> 
+; Execution error (ClassCastException) at uri-utils.parser.regex-parser/iterate-query-matches (form-init9636181124178355279.clj:10).
+; class java.util.regex.Matcher cannot be cast to class clojure.lang.IFn (java.util.regex.Matcher is in module java.base of loader 'bootstrap'; clojure.lang.IFn is in unnamed module of loader 'app')
+clj꞉uri-utils.parser.regex-parser꞉> 
+[]
+clj꞉uri-utils.parser.regex-parser꞉> 
+[]
+clj꞉uri-utils.parser.regex-parser꞉> 
+[]
+clj꞉uri-utils.parser.regex-parser꞉> 
+[]
+clj꞉uri-utils.parser.regex-parser꞉> 
+nil
+clj꞉uri-utils.parser.regex-parser꞉> 
+#function[uri-utils.parser.regex-parser/iterate-query-matches]
+clj꞉uri-utils.parser.regex-parser꞉> 
+[]
+clj꞉uri-utils.parser.regex-parser꞉> 
+[]
+clj꞉uri-utils.parser.regex-parser꞉> 
+[]
+clj꞉uri-utils.parser.regex-parser꞉> 
+#'uri-utils.parser.regex-parser/query->map
+clj꞉uri-utils.parser.regex-parser꞉> 
+[nil]
+clj꞉uri-utils.parser.regex-parser꞉> 
+[nil]
+clj꞉uri-utils.parser.regex-parser꞉> 
+[nil]
+clj꞉uri-utils.parser.regex-parser꞉> 
+nil
+clj꞉uri-utils.parser.regex-parser꞉> 
+; Execution error (ClassCastException) at uri-utils.parser.regex-parser/iterate-query-matches (form-init9636181124178355279.clj:10).
+; class java.util.regex.Matcher cannot be cast to class clojure.lang.IFn (java.util.regex.Matcher is in module java.base of loader 'bootstrap'; clojure.lang.IFn is in unnamed module of loader 'app')
+clj꞉uri-utils.parser.regex-parser꞉> 
+#'uri-utils.parser.regex-parser/query->map
+clj꞉uri-utils.parser.regex-parser꞉> 
+; Execution error (ClassCastException) at uri-utils.parser.regex-parser/iterate-query-matches (form-init9636181124178355279.clj:10).
+; class java.util.regex.Matcher cannot be cast to class clojure.lang.IFn (java.util.regex.Matcher is in module java.base of loader 'bootstrap'; clojure.lang.IFn is in unnamed module of loader 'app')
+clj꞉uri-utils.parser.regex-parser꞉> 
+[nil]
+clj꞉uri-utils.parser.regex-parser꞉> 
+[nil]
+clj꞉uri-utils.parser.regex-parser꞉> 
+[nil]
+clj꞉uri-utils.parser.regex-parser꞉> 
+[nil]
+clj꞉uri-utils.parser.regex-parser꞉> 
+#'uri-utils.parser.regex-parser/query->map
+clj꞉uri-utils.parser.regex-parser꞉> 
+; Execution error (ClassCastException) at uri-utils.parser.regex-parser/iterate-query-matches (form-init9636181124178355279.clj:10).
+; class java.util.regex.Matcher cannot be cast to class clojure.lang.IFn (java.util.regex.Matcher is in module java.base of loader 'bootstrap'; clojure.lang.IFn is in unnamed module of loader 'app')
+clj꞉uri-utils.parser.regex-parser꞉> 
+#'uri-utils.parser.regex-parser/query->map
+clj꞉uri-utils.parser.regex-parser꞉> 
+; Execution error (IllegalArgumentException) at uri-utils.parser.regex-parser/query->map (form-init9636181124178355279.clj:8).
+; No matching field found: split for class java.lang.String
+clj꞉uri-utils.parser.regex-parser꞉> 
+#'uri-utils.parser.regex-parser/query->map
+clj꞉uri-utils.parser.regex-parser꞉> 
+["name=Marko"]
+clj꞉uri-utils.parser.regex-parser꞉> 
+["name=Marko", "age=27"]
+clj꞉uri-utils.parser.regex-parser꞉> 
+; Execution error (ClassNotFoundException) at java.net.URLClassLoader/findClass (URLClassLoader.java:445).
+; String
+clj꞉uri-utils.parser.regex-parser꞉> 
+nil
+clj꞉uri-utils.parser.regex-parser꞉> 
+["name=Marko", "age=27"]
+clj꞉uri-utils.parser.regex-parser꞉> 
+; Syntax error compiling at (src/uri_utils/parser/regex_parser.clj:10:1).
+; Unable to resolve symbol: query->list in this context
+clj꞉uri-utils.parser.regex-parser꞉> 
+#'uri-utils.parser.regex-parser/query->list
+clj꞉uri-utils.parser.regex-parser꞉> 
+["name=Marko", "age=27"]
+clj꞉uri-utils.parser.regex-parser꞉> 
+; Syntax error compiling at (src/uri_utils/parser/regex_parser.clj:12:20).
+; Unable to resolve symbol: split-string in this context
+clj꞉uri-utils.parser.regex-parser꞉> 
+#'uri-utils.parser.regex-parser/split-string
+clj꞉uri-utils.parser.regex-parser꞉> 
+#'uri-utils.parser.regex-parser/query->map
+clj꞉uri-utils.parser.regex-parser꞉> 
+["name=Marko", "age=27"]
+clj꞉uri-utils.parser.regex-parser꞉> 
+#'uri-utils.parser.regex-parser/split-str
+clj꞉uri-utils.parser.regex-parser꞉> 
+#'uri-utils.parser.regex-parser/query->map
+clj꞉uri-utils.parser.regex-parser꞉> 
+["name=Marko", "age=27"]
+clj꞉uri-utils.parser.regex-parser꞉> 
+; Syntax error macroexpanding clojure.core/let at (src/uri_utils/parser/regex_parser.clj:14:12).
+; [[name value] split-str (x)] - failed: even-number-of-forms? at: [:bindings] spec: :clojure.core.specs.alpha/bindings
+clj꞉uri-utils.parser.regex-parser꞉> 
+; Syntax error macroexpanding clojure.core/let at (src/uri_utils/parser/regex_parser.clj:14:12).
+; [[name value] split-str (x)] - failed: even-number-of-forms? at: [:bindings] spec: :clojure.core.specs.alpha/bindings
+clj꞉uri-utils.parser.regex-parser꞉> 
+#'uri-utils.parser.regex-parser/query->map
+clj꞉uri-utils.parser.regex-parser꞉> 
+["name=Marko", "age=27"]
+clj꞉uri-utils.parser.regex-parser꞉> 
+; Execution error (ArityException) at uri-utils.parser.regex-parser/query->map (form-init9636181124178355279.clj:12).
+; Wrong number of args (1) passed to: uri-utils.parser.regex-parser/split-str
+clj꞉uri-utils.parser.regex-parser꞉> 
+#'uri-utils.parser.regex-parser/query->map
+clj꞉uri-utils.parser.regex-parser꞉> 
+({:name "name", :value nil} {:name "Marko&age", :value nil} {:name "27", :value nil})
+clj꞉uri-utils.parser.regex-parser꞉> 
+#'uri-utils.parser.regex-parser/query->map
+clj꞉uri-utils.parser.regex-parser꞉> 
+({:name "name", :value "Marko"} {:name "age", :value "27"})
+clj꞉uri-utils.parser.regex-parser꞉> 
+#'uri-utils.parser.regex-parser/param->map
+clj꞉uri-utils.parser.regex-parser꞉> 
+#'uri-utils.parser.regex-parser/query->map
+clj꞉uri-utils.parser.regex-parser꞉> 
+({:name "name", :value "Marko"} {:name "age", :value "27"})
+clj꞉uri-utils.parser.regex-parser꞉> 
+#'uri-utils.parser.regex-parser/string->uri
+clj꞉uri-utils.parser.regex-parser꞉> 
+#'uri-utils.parser.regex-parser/string->uri
+clj꞉uri-utils.parser.regex-parser꞉> 
+{:schema "http", :host "www.google.com", :path "/search", :query ({:name "?", :value nil})}
+clj꞉uri-utils.parser.regex-parser꞉> 
+#'uri-utils.parser.regex-parser/string->uri
+clj꞉uri-utils.parser.regex-parser꞉> 
+{:schema "http", :host "www.google.com", :path "/search", :query ({:name "name", :value "Marko"})}
+clj꞉uri-utils.parser.regex-parser꞉> 
+#'uri-utils.parser.regex-parser/param-list->map
+clj꞉uri-utils.parser.regex-parser꞉> 
+; Syntax error compiling at (src/uri_utils/parser/regex_parser.clj:25:5).
+; Unable to resolve symbol: param->param-list in this context
+clj꞉uri-utils.parser.regex-parser꞉> 
+#'uri-utils.parser.regex-parser/param->param-list
+clj꞉uri-utils.parser.regex-parser꞉> 
+#'uri-utils.parser.regex-parser/param-list->map
+clj꞉uri-utils.parser.regex-parser꞉> 
+#'uri-utils.parser.regex-parser/query->map
+clj꞉uri-utils.parser.regex-parser꞉> 
+({"name" "Marko"} {"age" "27"})
+clj꞉uri-utils.parser.regex-parser꞉> 
+#'uri-utils.parser.regex-parser/query->map
+clj꞉uri-utils.parser.regex-parser꞉> 
+{:name nil, :value nil}
+clj꞉uri-utils.parser.regex-parser꞉> 
+#'uri-utils.parser.regex-parser/param-list->map
+clj꞉uri-utils.parser.regex-parser꞉> 
+#'uri-utils.parser.regex-parser/query->map
+clj꞉uri-utils.parser.regex-parser꞉> 
+{nil nil}
+clj꞉uri-utils.parser.regex-parser꞉> 
+#'uri-utils.parser.regex-parser/params->map
+clj꞉uri-utils.parser.regex-parser꞉> 
+#'uri-utils.parser.regex-parser/query->map
+clj꞉uri-utils.parser.regex-parser꞉> 
+{"[Ljava.lang.String;@215f8a83" nil}
+clj꞉uri-utils.parser.regex-parser꞉> 
+; Syntax error compiling at (src/uri_utils/parser/regex_parser.clj:12:22).
+; Unable to resolve symbol: param in this context
+clj꞉uri-utils.parser.regex-parser꞉> 
+#'uri-utils.parser.regex-parser/param->list
+clj꞉uri-utils.parser.regex-parser꞉> 
+#'uri-utils.parser.regex-parser/param->list
+clj꞉uri-utils.parser.regex-parser꞉> 
+#'uri-utils.parser.regex-parser/query->map
+clj꞉uri-utils.parser.regex-parser꞉> 
+({"name" "Marko"} {"age" "27"})
+clj꞉uri-utils.parser.regex-parser꞉> 
+#'uri-utils.parser.regex-parser/param->list
+clj꞉uri-utils.parser.regex-parser꞉> 
+#'uri-utils.parser.regex-parser/query->map
+clj꞉uri-utils.parser.regex-parser꞉> 
+({"name" "Marko"} {"age" "27"})
+clj꞉uri-utils.parser.regex-parser꞉> 
+#'uri-utils.parser.regex-parser/param->list
+clj꞉uri-utils.parser.regex-parser꞉> 
+#'uri-utils.parser.regex-parser/param->list
+clj꞉uri-utils.parser.regex-parser꞉> 
+#'uri-utils.parser.regex-parser/query->map
+clj꞉uri-utils.parser.regex-parser꞉> 
+; Error printing return value (ClassCastException) at clojure.core/key (core.clj:1582).
+; class java.lang.String cannot be cast to class java.util.Map$Entry (java.lang.String and java.util.Map$Entry are in module java.base of loader 'bootstrap')
+clj꞉uri-utils.parser.regex-parser꞉> 
+#'uri-utils.parser.regex-parser/param->list
+clj꞉uri-utils.parser.regex-parser꞉> 
+#'uri-utils.parser.regex-parser/query->map
+clj꞉uri-utils.parser.regex-parser꞉> 
+(["name" "Marko"] ["age" "27"])
+clj꞉uri-utils.parser.regex-parser꞉> 
+; Syntax error compiling at (src/uri_utils/parser/regex_parser.clj:12:22).
+; Unable to resolve symbol: param in this context
+clj꞉uri-utils.parser.regex-parser꞉> 
+#'uri-utils.parser.regex-parser/param->list
+clj꞉uri-utils.parser.regex-parser꞉> 
+#'uri-utils.parser.regex-parser/query->map
+clj꞉uri-utils.parser.regex-parser꞉> 
+({:name "name", :value "Marko"} {:name "age", :value "27"})
+clj꞉uri-utils.parser.regex-parser꞉> 
+{:schema "http", :host "www.google.com", :path "/search", :query ({:name "name", :value "Marko"})}
+clj꞉uri-utils.parser.regex-parser꞉> 
+{:schema "http", :host "www.google.com", :path "/search", :query ({:name "name", :value "Marko"})}
+clj꞉uri-utils.parser.regex-parser꞉> 
+#'uri-utils.parser.regex-parser/query->map
+clj꞉uri-utils.parser.regex-parser꞉> 
+; Execution error (IllegalArgumentException) at uri-utils.parser.regex-parser/query->map (form-init9636181124178355279.clj:18).
+; Unrecognized type clojure.lang.LazySeq@1cf6186e
+clj꞉uri-utils.parser.regex-parser꞉> 
+#'uri-utils.parser.regex-parser/query->map
+clj꞉uri-utils.parser.regex-parser꞉> 
+#'uri-utils.parser.regex-parser/query->map
+clj꞉uri-utils.parser.regex-parser꞉> 
+[({:name "name", :value "Marko"} {:name "age", :value "27"})]
+clj꞉uri-utils.parser.regex-parser꞉> 
+#'uri-utils.parser.regex-parser/query->map
+clj꞉uri-utils.parser.regex-parser꞉> 
+[{:name "name", :value "Marko"} {:name "age", :value "27"}]
+clj꞉uri-utils.parser.regex-parser꞉> 
+#'uri-utils.parser.regex-parser/string->uri
+clj꞉uri-utils.parser.regex-parser꞉> 
+{:schema "http", :host "www.google.com", :path "/search", :query [{:name "name", :value "Marko"}]}
+clj꞉uri-utils.parser.regex-parser꞉> 
+#'uri-utils.parser.regex-parser/query->map
+clj꞉uri-utils.parser.regex-parser꞉> 
+#'uri-utils.parser.regex-parser/param->list
+clj꞉uri-utils.parser.regex-parser꞉> 
+[{:name "name", :value "Marko"} {:name "age", :value "27"}]
+clj꞉uri-utils.parser.regex-parser꞉> 
+#'uri-utils.parser.regex-parser/string->uri
+clj꞉uri-utils.parser.regex-parser꞉> 
+{:schema "http", :host "www.google.com", :path "/search", :query [{:name "name", :value "Marko"}]}
+clj꞉uri-utils.parser.regex-parser꞉> 
+#'uri-utils.common/uri-regex-pattern
+clj꞉uri-utils.common꞉> 
+{:schema "http", :host "www.google.com", :path "/search", :query [{:name "name", :value "Mark"}]}
+clj꞉uri-utils.parser.regex-parser꞉> 
+#'uri-utils.common/uri-regex-pattern
+clj꞉uri-utils.common꞉> 
+{:schema "http", :host "www.google.com", :path "/search", :query [{:name "name", :value "Marko"}]}
+clj꞉uri-utils.parser.regex-parser꞉> 
+{:schema "http",
+ :host "www.google.com",
+ :path "/search",
+ :query [{:name "name", :value "Marko"} {:name "age", :value "27"}]}
+clj꞉uri-utils.parser.regex-parser꞉> 
+#'uri-utils.parser.regex-parser/query->map
+clj꞉uri-utils.parser.regex-parser꞉> 
+#'uri-utils.parser.regex-parser/string->uri
+clj꞉uri-utils.parser.regex-parser꞉> 
+#'uri-utils.parser.regex-parser/split-str
+clj꞉uri-utils.parser.regex-parser꞉> 
+{:schema "http",
+ :host "www.google.com",
+ :path "/search",
+ :query [{:name "name", :value "Marko"} {:name "age", :value "27"}]}
+clj꞉uri-utils.parser.regex-parser꞉> 
+nil
+clj꞉uri-utils.parser.regex-parser꞉> 
+{:schema "http",
+ :host "www.google.com",
+ :path "/search",
+ :query [{:name "name", :value "Marko"} {:name "age", :value "27"}]}
+clj꞉uri-utils.parser.regex-parser꞉> 
+; Syntax error compiling at (src/uri_utils/core.clj:6:15).
+; No such namespace: parser
+clj꞉uri-utils.core꞉> 
+nil
+clj꞉uri-utils.core꞉> 
+#'uri-utils.core/equals?
+clj꞉uri-utils.core꞉> 
+; Execution error (ClassCastException) at uri-utils.core/equals? (form-init9636181124178355279.clj:6).
+; class java.lang.String cannot be cast to class clojure.lang.IFn (java.lang.String is in module java.base of loader 'bootstrap'; clojure.lang.IFn is in unnamed module of loader 'app')
+clj꞉uri-utils.core꞉> 
+#'uri-utils.core/equals?
+clj꞉uri-utils.core꞉> 
+; Execution error (ClassCastException) at uri-utils.core/equals? (form-init9636181124178355279.clj:6).
+; class java.lang.String cannot be cast to class clojure.lang.IFn (java.lang.String is in module java.base of loader 'bootstrap'; clojure.lang.IFn is in unnamed module of loader 'app')
+clj꞉uri-utils.core꞉> 
+#'uri-utils.parser.regex-parser/string->uri
+clj꞉uri-utils.parser.regex-parser꞉> 
+{:schema "http",
+ :host "www.google.com",
+ :path "/search",
+ :query [{:name "name", :value "Marko"} {:name "age", :value "27"}]}
+clj꞉uri-utils.parser.regex-parser꞉> 
+; Execution error (ClassCastException) at uri-utils.core/equals? (form-init9636181124178355279.clj:6).
+; class java.lang.String cannot be cast to class clojure.lang.IFn (java.lang.String is in module java.base of loader 'bootstrap'; clojure.lang.IFn is in unnamed module of loader 'app')
+clj꞉uri-utils.core꞉> 
+#'uri-utils.core/equals?
+clj꞉uri-utils.core꞉> 
+; Execution error (ClassCastException) at uri-utils.core/equals? (form-init9636181124178355279.clj:6).
+; class java.lang.String cannot be cast to class clojure.lang.IFn (java.lang.String is in module java.base of loader 'bootstrap'; clojure.lang.IFn is in unnamed module of loader 'app')
+clj꞉uri-utils.core꞉> 
+#'uri-utils.core/equals?
+clj꞉uri-utils.core꞉> 
+; Execution error (ClassCastException) at uri-utils.core/equals? (form-init9636181124178355279.clj:6).
+; class java.lang.String cannot be cast to class clojure.lang.IFn (java.lang.String is in module java.base of loader 'bootstrap'; clojure.lang.IFn is in unnamed module of loader 'app')
+clj꞉uri-utils.core꞉> 
+#'uri-utils.core/equals?
+clj꞉uri-utils.core꞉> 
+; Execution error (ClassCastException) at uri-utils.core/equals? (form-init9636181124178355279.clj:6).
+; class java.lang.String cannot be cast to class clojure.lang.IFn (java.lang.String is in module java.base of loader 'bootstrap'; clojure.lang.IFn is in unnamed module of loader 'app')
+clj꞉uri-utils.core꞉> 
+#'uri-utils.parser.regex-parser/split-str
+clj꞉uri-utils.parser.regex-parser꞉> 
+{:schema "http",
+ :host "www.google.com",
+ :path "/search",
+ :query [{:name "name", :value "Marko"} {:name "age", :value "27"}]}
+clj꞉uri-utils.parser.regex-parser꞉> 
+; Execution error (ClassCastException) at uri-utils.core/equals? (form-init9636181124178355279.clj:6).
+; class java.lang.String cannot be cast to class clojure.lang.IFn (java.lang.String is in module java.base of loader 'bootstrap'; clojure.lang.IFn is in unnamed module of loader 'app')
+clj꞉uri-utils.core꞉> 
+{:schema "http", :host nil, :path "s", :query []}
+clj꞉uri-utils.core꞉> 
+{:schema "http", :host nil, :path "s", :query []}
+clj꞉uri-utils.core꞉> 
+{:schema "http", :host nil, :path "s", :query []}
+clj꞉uri-utils.core꞉> 
+{:schema "http", :host nil, :path "s", :query []}
+clj꞉uri-utils.core꞉> 
+{:schema "http", :host "www.google.com", :path "/search", :query []}
+clj꞉uri-utils.core꞉> 
+{:schema "http", :host "www.google.com", :path "/search", :query []}
+clj꞉uri-utils.core꞉> 
+{:schema "http", :host "www.google.com", :path "/search", :query []}
+clj꞉uri-utils.core꞉> 
+{:schema "http", :host nil, :path "s", :query []}
+clj꞉uri-utils.core꞉> 
+#'uri-utils.common/uri-regex-pattern
+clj꞉uri-utils.common꞉> 
+{:schema "https", :host "www.google.com", :path "/search", :query []}
+clj꞉uri-utils.core꞉> 
+{:schema "http", :host "www.google.com", :path "/search", :query []}
+clj꞉uri-utils.core꞉> 
+{:schema "http", :host "www.google.co", :path "m", :query []}
+clj꞉uri-utils.core꞉> 
+{:schema "http", :host "www.google.co", :path "m", :query []}
+clj꞉uri-utils.core꞉> 
+{:schema "http", :host "www.google.co", :path "m", :query []}
+clj꞉uri-utils.core꞉> 
+#'uri-utils.common/uri-regex-pattern
+clj꞉uri-utils.common꞉> 
+{:schema "http", :host "www.google.co", :path "m", :query []}
+clj꞉uri-utils.core꞉> 
+{:schema "http", :host "www.google.co", :path "m", :query []}
+clj꞉uri-utils.core꞉> 
+{:schema "http", :host "www.google.com", :path "search", :query []}
+clj꞉uri-utils.core꞉> 
+#'uri-utils.common/uri-regex-pattern
+clj꞉uri-utils.common꞉> 
+{:schema "http", :host "www.google.com", :path "/search", :query []}
+clj꞉uri-utils.core꞉> 
+{:schema nil, :host nil, :path "/www", :query []}
+clj꞉uri-utils.core꞉> 
+#'uri-utils.common/uri-regex-pattern
+clj꞉uri-utils.common꞉> 
+{:schema "http", :host "www.google.co", :path "m", :query []}
+clj꞉uri-utils.core꞉> 
+{:schema "http", :host "www.google.com", :path "/", :query []}
+clj꞉uri-utils.core꞉> 
+{:schema "http", :host "www.google.com", :path "/", :query []}
+clj꞉uri-utils.core꞉> 
+{:schema "http", :host "www.google.co", :path "m", :query []}
+clj꞉uri-utils.core꞉> 
+nil
+clj꞉uri-utils.core꞉> 
+{:schema "http", :host "www.google.co", :path "m", :query []}
+clj꞉uri-utils.core꞉> 
+; Execution error (ClassCastException) at uri-utils.core/equals? (form-init9636181124178355279.clj:6).
+; class java.lang.String cannot be cast to class clojure.lang.IFn (java.lang.String is in module java.base of loader 'bootstrap'; clojure.lang.IFn is in unnamed module of loader 'app')
+clj꞉uri-utils.core꞉> 
+#'uri-utils.core/equals?
+clj꞉uri-utils.core꞉> 
+; Execution error (ClassCastException) at uri-utils.core/equals? (form-init9636181124178355279.clj:6).
+; class java.lang.String cannot be cast to class clojure.lang.IFn (java.lang.String is in module java.base of loader 'bootstrap'; clojure.lang.IFn is in unnamed module of loader 'app')
+clj꞉uri-utils.core꞉> 
+nil
+clj꞉uri-utils.core꞉> 
+{:schema "http",
+ :host "www.google.com",
+ :path "/search",
+ :query [{:name "name", :value "Marko"} {:name "age", :value "27"}]}
+clj꞉uri-utils.parser.regex-parser꞉> 
+#'uri-utils.parser.regex-parser/split-str
+clj꞉uri-utils.parser.regex-parser꞉> 
+{:schema "http",
+ :host "www.google.com",
+ :path "/search",
+ :query [{:name "name", :value "Marko"} {:name "age", :value "27"}]}
+clj꞉uri-utils.parser.regex-parser꞉> 
+#'uri-utils.parser.regex-parser/query->map
+clj꞉uri-utils.parser.regex-parser꞉> 
+{:schema "http",
+ :host "www.google.com",
+ :path "/search",
+ :query [{:name "name", :value "Marko"} {:name "age", :value "27"}]}
+clj꞉uri-utils.parser.regex-parser꞉> 
+; Syntax error compiling at (src/uri_utils/core.clj:5:1).
+; No such namespace: p
+clj꞉uri-utils.core꞉> 
+nil
+clj꞉uri-utils.core꞉> 
+; Execution error (NullPointerException) at uri-utils.parser.regex-parser/query->map (form-init9636181124178355279.clj:12).
+; Cannot invoke "Object.getClass()" because "target" is null
+clj꞉uri-utils.core꞉> 
+#'uri-utils.parser.regex-parser/query->map
+clj꞉uri-utils.parser.regex-parser꞉> 
+{:schema "http",
+ :host "www.google.com",
+ :path "/search",
+ :query [{:name "name", :value "Marko"} {:name "age", :value "27"}]}
+clj꞉uri-utils.parser.regex-parser꞉> 
+#'uri-utils.parser.regex-parser/query->map
+clj꞉uri-utils.parser.regex-parser꞉> 
+{:schema "http",
+ :host "www.google.com",
+ :path "/search",
+ :query [{:name "name", :value "Marko"} {:name "age", :value "27"}]}
+clj꞉uri-utils.parser.regex-parser꞉> 
+{:schema nil, :host "www.google.co", :path "m", :query [{:name "null", :value nil}]}
+clj꞉uri-utils.core꞉> 
+; Execution error (ArityException) at uri-utils.core/equals? (form-init9636181124178355279.clj:6).
+; Wrong number of args (0) passed to: clojure.lang.PersistentArrayMap
+clj꞉uri-utils.core꞉> 
+true
+clj꞉uri-utils.core꞉> 
+#'uri-utils.core/uri-equals
+clj꞉uri-utils.core꞉> 
+true
+clj꞉uri-utils.core꞉> 
+nil
+clj꞉uri-utils.parser.regex-parser꞉> 
+{:schema "http",
+ :host "www.google.com",
+ :path "/search",
+ :query [{:name "name", :value "Marko"} {:name "age", :value "27"}]}
+clj꞉uri-utils.parser.regex-parser꞉> 
+#'uri-utils.parser.regex-parser/string->uri
+clj꞉uri-utils.parser.regex-parser꞉> 
+; nREPL Connection was closed
+; Jacking in...
+; Starting Jack-in Terminal: lein update-in :dependencies conj '[nrepl,"1.0.0"]' -- update-in :plugins conj '[cider/cider-nrepl,"0.28.5"]' -- update-in '[:repl-options,:nrepl-middleware]' conj '["cider.nrepl/cider-middleware"]' -- repl :headless
+; Hooking up nREPL sessions...
+; Connected session: clj
+; TIPS:
+;   - You can edit the contents here. Use it as a REPL if you like.
+;   - `alt+enter` evaluates the current top level form.
+;   - `ctrl+enter` evaluates the current form.
+;   - `alt+up` and `alt+down` traverse up and down the REPL command history
+;      when the cursor is after the last contents at the prompt
+;   - Clojure lines in stack traces are peekable and clickable.
+clj꞉uri-utils.core꞉> 
+; Jack-in done.
+clj꞉uri-utils.core꞉> 
+true
+clj꞉uri-utils.core꞉> 
+; Syntax error macroexpanding clojure.core/ns at (src/uri_utils/parser/regex_parser.clj:1:1).
+; s - failed: (or (nil? %) (sequential? %)) at: [:ns-clauses :refer-clojure] spec: :clojure.core.specs.alpha/ns-refer-clojure
+; s - failed: (or (nil? %) (sequential? %)) at: [:ns-clauses :require] spec: :clojure.core.specs.alpha/ns-require
+; s - failed: (or (nil? %) (sequential? %)) at: [:ns-clauses :import] spec: :clojure.core.specs.alpha/ns-import
+; s - failed: (or (nil? %) (sequential? %)) at: [:ns-clauses :use] spec: :clojure.core.specs.alpha/ns-use
+; s - failed: (or (nil? %) (sequential? %)) at: [:ns-clauses :refer] spec: :clojure.core.specs.alpha/ns-refer
+; s - failed: (or (nil? %) (sequential? %)) at: [:ns-clauses :load] spec: :clojure.core.specs.alpha/ns-load
+; s - failed: (or (nil? %) (sequential? %)) at: [:ns-clauses :gen-class] spec: :clojure.core.specs.alpha/ns-gen-class
+clj꞉uri-utils.parser.regex-parser꞉> 
+nil
+clj꞉uri-utils.parser.regex-parser꞉> 
+#'uri-utils.parser.regex-parser/string->uri
+clj꞉uri-utils.parser.regex-parser꞉> 
+true
+clj꞉uri-utils.core꞉> 
+#'uri-utils.comparator.map-comparator/uri-equals
+clj꞉uri-utils.comparator.map-comparator꞉> 
+; Syntax error compiling at (src/uri_utils/comparator/map_comparator.clj:17:11).
+; Unable to resolve symbol: str->str-ci in this context
+clj꞉uri-utils.comparator.map-comparator꞉> 
+nil
+clj꞉uri-utils.comparator.map-comparator꞉> 
+#'uri-utils.comparator.map-comparator/str->str-ci
+clj꞉uri-utils.comparator.map-comparator꞉> 
+#'uri-utils.comparator.map-comparator/uri-equals
+clj꞉uri-utils.comparator.map-comparator꞉> 
+; Execution error (ArityException) at uri-utils.core/eval7969 (form-init3592872618423109150.clj:5).
+; Wrong number of args (2) passed to: uri-utils.comparator.map-comparator/uri-equals
+clj꞉uri-utils.core꞉> 
+true
+clj꞉uri-utils.core꞉> 
+true
+clj꞉uri-utils.core꞉> 
+true
+clj꞉uri-utils.core꞉> 
+true
+clj꞉uri-utils.core꞉> 
+false
+clj꞉uri-utils.core꞉> 
+true
+clj꞉uri-utils.core꞉> 
+#'uri-utils.comparator.map-comparator/uri-equals
+clj꞉uri-utils.comparator.map-comparator꞉> 
+true
+clj꞉uri-utils.core꞉> 
+; Syntax error compiling at (test/uri_utils/core_test.clj:5:1).
+; Unable to resolve symbol: deftest in this context
+clj꞉uri-utils.core-test꞉> 
+nil
+clj꞉uri-utils.core-test꞉> 
+#'uri-utils.core-test/a-test
+clj꞉uri-utils.core-test꞉> 
+
+FAIL in (a-test) (form-init3592872618423109150.clj:7)
+FIXME, I fail.
+expected: (= 0 1)
+  actual: (not (= 0 1))
+nil
+clj꞉uri-utils.core-test꞉> 
+; Syntax error compiling at (test/uri_utils/core_test.clj:10:1).
+; Unable to resolve symbol: test-uris-equals in this context
+clj꞉uri-utils.core-test꞉> 
+; Syntax error compiling at (test/uri_utils/core_test.clj:7:9).
+; No such namespace: c
+clj꞉uri-utils.core-test꞉> 
+; Execution error (IllegalStateException) at uri-utils.core-test/eval8013 (form-init3592872618423109150.clj:10).
+; Attempting to call unbound fn: #'uri-utils.core-test/test-uris-equals
+clj꞉uri-utils.core-test꞉> 
+#'uri-utils.comparator.map-comparator/uri-equals
+clj꞉uri-utils.comparator.map-comparator꞉> 
+#'uri-utils.core/uris-equals
+clj꞉uri-utils.core꞉> 
+nil
+clj꞉uri-utils.core-test꞉> 
+; Execution error (IllegalStateException) at uri-utils.core-test/eval8035 (form-init3592872618423109150.clj:10).
+; Attempting to call unbound fn: #'uri-utils.core-test/test-uris-equals
+clj꞉uri-utils.core-test꞉> 
+true
+clj꞉uri-utils.comparator.map-comparator꞉> 
+true
+clj꞉uri-utils.comparator.map-comparator꞉> 
+true
+clj꞉uri-utils.comparator.map-comparator꞉> 
+true
+clj꞉uri-utils.comparator.map-comparator꞉> 
+false
+clj꞉uri-utils.comparator.map-comparator꞉> 
+true
+clj꞉uri-utils.comparator.map-comparator꞉> 
+#'uri-utils.comparator.map-comparator/uri-equals
+clj꞉uri-utils.comparator.map-comparator꞉> 
+nil
+clj꞉uri-utils.core꞉> 
+#'uri-utils.core/uris-equals
+clj꞉uri-utils.core꞉> 
+#'uri-utils.core/uris-equals
+clj꞉uri-utils.core꞉> 
+; Execution error (IllegalStateException) at uri-utils.core-test/eval8070 (form-init3592872618423109150.clj:10).
+; Attempting to call unbound fn: #'uri-utils.core-test/test-uris-equals
+clj꞉uri-utils.core-test꞉> 
+nil
+clj꞉uri-utils.core-test꞉> 
+#'uri-utils.core-test/test-uris-equals
+clj꞉uri-utils.core-test꞉> 
+nil
+clj꞉uri-utils.core-test꞉> 
+nil
+clj꞉uri-utils.core-test꞉> 
+#'uri-utils.core-test/test-uris-equals
+clj꞉uri-utils.core-test꞉> 
+nil
+clj꞉uri-utils.core-test꞉> 
+true
+clj꞉uri-utils.core-test꞉> 
+nil
+clj꞉uri-utils.core-test꞉> 
+true
+clj꞉uri-utils.core-test꞉> 
+#'uri-utils.core-test/test-uris-equals
+clj꞉uri-utils.core-test꞉> 
+true
+clj꞉uri-utils.core-test꞉> 
+#'uri-utils.core-test/test-uris-equals
+clj꞉uri-utils.core-test꞉> 
+nil
+clj꞉uri-utils.core-test꞉> 
+nil
+clj꞉uri-utils.core-test꞉> 
+#'uri-utils.core-test/uris-equals-test
+clj꞉uri-utils.core-test꞉> 
+nil
+clj꞉uri-utils.core-test꞉> 
+nil
+clj꞉uri-utils.core-test꞉> 
+; Syntax error compiling at (test/uri_utils/core_test.clj:7:16).
+; Unable to resolve symbol: uris-equals in this context
+clj꞉uri-utils.core-test꞉> 
+nil
+clj꞉uri-utils.core-test꞉> 
+; Syntax error compiling at (test/uri_utils/core_test.clj:7:16).
+; Unable to resolve symbol: uris-equals in this context
+clj꞉uri-utils.core-test꞉> 
+; Syntax error compiling at (test/uri_utils/core_test.clj:7:16).
+; Unable to resolve symbol: uris-equals in this context
+clj꞉uri-utils.core-test꞉> 
+nil
+clj꞉uri-utils.core-test꞉> 
+#'uri-utils.core-test/uris-equals-test
+clj꞉uri-utils.core-test꞉> 
+nil
+clj꞉uri-utils.core-test꞉> 
+#'uri-utils.core-test/uris-equals-test
+clj꞉uri-utils.core-test꞉> 
+nil
+clj꞉uri-utils.core-test꞉> 
+
+FAIL in (a-test) (form-init3592872618423109150.clj:7)
+FIXME, I fail.
+expected: (= 0 1)
+  actual: (not (= 0 1))
+nil
+clj꞉uri-utils.core-test꞉> 
+#'uri-utils.core-test/uris-equals-test
+clj꞉uri-utils.core-test꞉> 
+nil
+clj꞉uri-utils.core-test꞉> 
+nil
+clj꞉uri-utils.core-test꞉> 
+#'uri-utils.core-test/uris-equals-test
+clj꞉uri-utils.core-test꞉> 
+nil
+clj꞉uri-utils.core-test꞉> 
+#'uri-utils.core-test/uris-equals-test
+clj꞉uri-utils.core-test꞉> 
+
+ERROR in (uris-equals-test) (form-init3592872618423109150.clj:6)
+Uncaught exception, not in assertion.
+expected: nil
+  actual: java.lang.ClassCastException: class java.lang.Boolean cannot be cast to class clojure.lang.IFn (java.lang.Boolean is in module java.base of loader 'bootstrap'; clojure.lang.IFn is in unnamed module of loader 'app')
+ at uri_utils.core_test$fn__8186.invokeStatic (form-init3592872618423109150.clj:6)
+    uri_utils.core_test/fn (form-init3592872618423109150.clj:5)
+    clojure.test$test_var$fn__9856.invoke (test.clj:717)
+    clojure.test$test_var.invokeStatic (test.clj:717)
+    clojure.test$test_var.invoke (test.clj:708)
+    uri_utils.core_test$uris_equals_test.invokeStatic (form-init3592872618423109150.clj:5)
+    uri_utils.core_test$uris_equals_test.invoke (form-init3592872618423109150.clj:5)
+    uri_utils.core_test$eval8193.invokeStatic (form-init3592872618423109150.clj:12)
+    uri_utils.core_test$eval8193.invoke (form-init3592872618423109150.clj:12)
+    clojure.lang.Compiler.eval (Compiler.java:7194)
+    clojure.lang.Compiler.eval (Compiler.java:7149)
+    clojure.core$eval.invokeStatic (core.clj:3215)
+    clojure.core$eval.invoke (core.clj:3211)
+    nrepl.middleware.interruptible_eval$evaluate$fn__1311$fn__1312.invoke (interruptible_eval.clj:87)
+    clojure.lang.AFn.applyToHelper (AFn.java:152)
+    clojure.lang.AFn.applyTo (AFn.java:144)
+    clojure.core$apply.invokeStatic (core.clj:667)
+    clojure.core$with_bindings_STAR_.invokeStatic (core.clj:1990)
+    clojure.core$with_bindings_STAR_.doInvoke (core.clj:1990)
+    clojure.lang.RestFn.invoke (RestFn.java:425)
+    nrepl.middleware.interruptible_eval$evaluate$fn__1311.invoke (interruptible_eval.clj:87)
+    clojure.main$repl$read_eval_print__9206$fn__9209.invoke (main.clj:437)
+    clojure.main$repl$read_eval_print__9206.invoke (main.clj:437)
+    clojure.main$repl$fn__9215.invoke (main.clj:458)
+    clojure.main$repl.invokeStatic (main.clj:458)
+    clojure.main$repl.doInvoke (main.clj:368)
+    clojure.lang.RestFn.invoke (RestFn.java:1523)
+    nrepl.middleware.interruptible_eval$evaluate.invokeStatic (interruptible_eval.clj:84)
+    nrepl.middleware.interruptible_eval$evaluate.invoke (interruptible_eval.clj:56)
+    nrepl.middleware.interruptible_eval$interruptible_eval$fn__1344$fn__1348.invoke (interruptible_eval.clj:152)
+    clojure.lang.AFn.run (AFn.java:22)
+    nrepl.middleware.session$session_exec$main_loop__1414$fn__1418.invoke (session.clj:218)
+    nrepl.middleware.session$session_exec$main_loop__1414.invoke (session.clj:217)
+    clojure.lang.AFn.run (AFn.java:22)
+    java.lang.Thread.run (Thread.java:833)
+nil
+clj꞉uri-utils.core-test꞉> 
+#'uri-utils.core-test/uris-equals-test
+clj꞉uri-utils.core-test꞉> 
+
+ERROR in (uris-equals-test) (form-init3592872618423109150.clj:8)
+If the same two URIs are equal.
+expected: ((uris-equals "www.google.com" "www.google.com"))
+  actual: java.lang.ClassCastException: class java.lang.Boolean cannot be cast to class clojure.lang.IFn (java.lang.Boolean is in module java.base of loader 'bootstrap'; clojure.lang.IFn is in unnamed module of loader 'app')
+ at uri_utils.core_test$fn__8195$fn__8196.invoke (form-init3592872618423109150.clj:8)
+    uri_utils.core_test$fn__8195.invokeStatic (form-init3592872618423109150.clj:6)
+    uri_utils.core_test/fn (form-init3592872618423109150.clj:5)
+    clojure.test$test_var$fn__9856.invoke (test.clj:717)
+    clojure.test$test_var.invokeStatic (test.clj:717)
+    clojure.test$test_var.invoke (test.clj:708)
+    uri_utils.core_test$uris_equals_test.invokeStatic (form-init3592872618423109150.clj:5)
+    uri_utils.core_test$uris_equals_test.invoke (form-init3592872618423109150.clj:5)
+    uri_utils.core_test$eval8201.invokeStatic (form-init3592872618423109150.clj:11)
+    uri_utils.core_test$eval8201.invoke (form-init3592872618423109150.clj:11)
+    clojure.lang.Compiler.eval (Compiler.java:7194)
+    clojure.lang.Compiler.eval (Compiler.java:7149)
+    clojure.core$eval.invokeStatic (core.clj:3215)
+    clojure.core$eval.invoke (core.clj:3211)
+    nrepl.middleware.interruptible_eval$evaluate$fn__1311$fn__1312.invoke (interruptible_eval.clj:87)
+    clojure.lang.AFn.applyToHelper (AFn.java:152)
+    clojure.lang.AFn.applyTo (AFn.java:144)
+    clojure.core$apply.invokeStatic (core.clj:667)
+    clojure.core$with_bindings_STAR_.invokeStatic (core.clj:1990)
+    clojure.core$with_bindings_STAR_.doInvoke (core.clj:1990)
+    clojure.lang.RestFn.invoke (RestFn.java:425)
+    nrepl.middleware.interruptible_eval$evaluate$fn__1311.invoke (interruptible_eval.clj:87)
+    clojure.main$repl$read_eval_print__9206$fn__9209.invoke (main.clj:437)
+    clojure.main$repl$read_eval_print__9206.invoke (main.clj:437)
+    clojure.main$repl$fn__9215.invoke (main.clj:458)
+    clojure.main$repl.invokeStatic (main.clj:458)
+    clojure.main$repl.doInvoke (main.clj:368)
+    clojure.lang.RestFn.invoke (RestFn.java:1523)
+    nrepl.middleware.interruptible_eval$evaluate.invokeStatic (interruptible_eval.clj:84)
+    nrepl.middleware.interruptible_eval$evaluate.invoke (interruptible_eval.clj:56)
+    nrepl.middleware.interruptible_eval$interruptible_eval$fn__1344$fn__1348.invoke (interruptible_eval.clj:152)
+    clojure.lang.AFn.run (AFn.java:22)
+    nrepl.middleware.session$session_exec$main_loop__1414$fn__1418.invoke (session.clj:218)
+    nrepl.middleware.session$session_exec$main_loop__1414.invoke (session.clj:217)
+    clojure.lang.AFn.run (AFn.java:22)
+    java.lang.Thread.run (Thread.java:833)
+
+ERROR in (uris-equals-test) (form-init3592872618423109150.clj:6)
+Uncaught exception, not in assertion.
+expected: nil
+  actual: java.lang.NullPointerException: Cannot invoke "clojure.lang.IFn.invoke()" because the return value of "clojure.lang.IFn.invoke()" is null
+ at uri_utils.core_test$fn__8195.invokeStatic (form-init3592872618423109150.clj:6)
+    uri_utils.core_test/fn (form-init3592872618423109150.clj:5)
+    clojure.test$test_var$fn__9856.invoke (test.clj:717)
+    clojure.test$test_var.invokeStatic (test.clj:717)
+    clojure.test$test_var.invoke (test.clj:708)
+    uri_utils.core_test$uris_equals_test.invokeStatic (form-init3592872618423109150.clj:5)
+    uri_utils.core_test$uris_equals_test.invoke (form-init3592872618423109150.clj:5)
+    uri_utils.core_test$eval8201.invokeStatic (form-init3592872618423109150.clj:11)
+    uri_utils.core_test$eval8201.invoke (form-init3592872618423109150.clj:11)
+    clojure.lang.Compiler.eval (Compiler.java:7194)
+    clojure.lang.Compiler.eval (Compiler.java:7149)
+    clojure.core$eval.invokeStatic (core.clj:3215)
+    clojure.core$eval.invoke (core.clj:3211)
+    nrepl.middleware.interruptible_eval$evaluate$fn__1311$fn__1312.invoke (interruptible_eval.clj:87)
+    clojure.lang.AFn.applyToHelper (AFn.java:152)
+    clojure.lang.AFn.applyTo (AFn.java:144)
+    clojure.core$apply.invokeStatic (core.clj:667)
+    clojure.core$with_bindings_STAR_.invokeStatic (core.clj:1990)
+    clojure.core$with_bindings_STAR_.doInvoke (core.clj:1990)
+    clojure.lang.RestFn.invoke (RestFn.java:425)
+    nrepl.middleware.interruptible_eval$evaluate$fn__1311.invoke (interruptible_eval.clj:87)
+    clojure.main$repl$read_eval_print__9206$fn__9209.invoke (main.clj:437)
+    clojure.main$repl$read_eval_print__9206.invoke (main.clj:437)
+    clojure.main$repl$fn__9215.invoke (main.clj:458)
+    clojure.main$repl.invokeStatic (main.clj:458)
+    clojure.main$repl.doInvoke (main.clj:368)
+    clojure.lang.RestFn.invoke (RestFn.java:1523)
+    nrepl.middleware.interruptible_eval$evaluate.invokeStatic (interruptible_eval.clj:84)
+    nrepl.middleware.interruptible_eval$evaluate.invoke (interruptible_eval.clj:56)
+    nrepl.middleware.interruptible_eval$interruptible_eval$fn__1344$fn__1348.invoke (interruptible_eval.clj:152)
+    clojure.lang.AFn.run (AFn.java:22)
+    nrepl.middleware.session$session_exec$main_loop__1414$fn__1418.invoke (session.clj:218)
+    nrepl.middleware.session$session_exec$main_loop__1414.invoke (session.clj:217)
+    clojure.lang.AFn.run (AFn.java:22)
+    java.lang.Thread.run (Thread.java:833)
+nil
+clj꞉uri-utils.core-test꞉> 
+#'uri-utils.core-test/uris-equals-test
+clj꞉uri-utils.core-test꞉> 
+
+ERROR in (uris-equals-test) (form-init3592872618423109150.clj:6)
+Uncaught exception, not in assertion.
+expected: nil
+  actual: java.lang.ClassCastException: class java.lang.Boolean cannot be cast to class clojure.lang.IFn (java.lang.Boolean is in module java.base of loader 'bootstrap'; clojure.lang.IFn is in unnamed module of loader 'app')
+ at uri_utils.core_test$fn__8203.invokeStatic (form-init3592872618423109150.clj:6)
+    uri_utils.core_test/fn (form-init3592872618423109150.clj:5)
+    clojure.test$test_var$fn__9856.invoke (test.clj:717)
+    clojure.test$test_var.invokeStatic (test.clj:717)
+    clojure.test$test_var.invoke (test.clj:708)
+    uri_utils.core_test$uris_equals_test.invokeStatic (form-init3592872618423109150.clj:5)
+    uri_utils.core_test$uris_equals_test.invoke (form-init3592872618423109150.clj:5)
+    uri_utils.core_test$eval8210.invokeStatic (form-init3592872618423109150.clj:11)
+    uri_utils.core_test$eval8210.invoke (form-init3592872618423109150.clj:11)
+    clojure.lang.Compiler.eval (Compiler.java:7194)
+    clojure.lang.Compiler.eval (Compiler.java:7149)
+    clojure.core$eval.invokeStatic (core.clj:3215)
+    clojure.core$eval.invoke (core.clj:3211)
+    nrepl.middleware.interruptible_eval$evaluate$fn__1311$fn__1312.invoke (interruptible_eval.clj:87)
+    clojure.lang.AFn.applyToHelper (AFn.java:152)
+    clojure.lang.AFn.applyTo (AFn.java:144)
+    clojure.core$apply.invokeStatic (core.clj:667)
+    clojure.core$with_bindings_STAR_.invokeStatic (core.clj:1990)
+    clojure.core$with_bindings_STAR_.doInvoke (core.clj:1990)
+    clojure.lang.RestFn.invoke (RestFn.java:425)
+    nrepl.middleware.interruptible_eval$evaluate$fn__1311.invoke (interruptible_eval.clj:87)
+    clojure.main$repl$read_eval_print__9206$fn__9209.invoke (main.clj:437)
+    clojure.main$repl$read_eval_print__9206.invoke (main.clj:437)
+    clojure.main$repl$fn__9215.invoke (main.clj:458)
+    clojure.main$repl.invokeStatic (main.clj:458)
+    clojure.main$repl.doInvoke (main.clj:368)
+    clojure.lang.RestFn.invoke (RestFn.java:1523)
+    nrepl.middleware.interruptible_eval$evaluate.invokeStatic (interruptible_eval.clj:84)
+    nrepl.middleware.interruptible_eval$evaluate.invoke (interruptible_eval.clj:56)
+    nrepl.middleware.interruptible_eval$interruptible_eval$fn__1344$fn__1348.invoke (interruptible_eval.clj:152)
+    clojure.lang.AFn.run (AFn.java:22)
+    nrepl.middleware.session$session_exec$main_loop__1414$fn__1418.invoke (session.clj:218)
+    nrepl.middleware.session$session_exec$main_loop__1414.invoke (session.clj:217)
+    clojure.lang.AFn.run (AFn.java:22)
+    java.lang.Thread.run (Thread.java:833)
+nil
+clj꞉uri-utils.core-test꞉> 
+#'uri-utils.core-test/uris-equals-test
+clj꞉uri-utils.core-test꞉> 
+
+ERROR in (uris-equals-test) (form-init3592872618423109150.clj:6)
+Uncaught exception, not in assertion.
+expected: nil
+  actual: java.lang.ClassCastException: class java.lang.Boolean cannot be cast to class clojure.lang.IFn (java.lang.Boolean is in module java.base of loader 'bootstrap'; clojure.lang.IFn is in unnamed module of loader 'app')
+ at uri_utils.core_test$fn__8212.invokeStatic (form-init3592872618423109150.clj:6)
+    uri_utils.core_test/fn (form-init3592872618423109150.clj:5)
+    clojure.test$test_var$fn__9856.invoke (test.clj:717)
+    clojure.test$test_var.invokeStatic (test.clj:717)
+    clojure.test$test_var.invoke (test.clj:708)
+    uri_utils.core_test$uris_equals_test.invokeStatic (form-init3592872618423109150.clj:5)
+    uri_utils.core_test$uris_equals_test.invoke (form-init3592872618423109150.clj:5)
+    uri_utils.core_test$eval8219.invokeStatic (form-init3592872618423109150.clj:11)
+    uri_utils.core_test$eval8219.invoke (form-init3592872618423109150.clj:11)
+    clojure.lang.Compiler.eval (Compiler.java:7194)
+    clojure.lang.Compiler.eval (Compiler.java:7149)
+    clojure.core$eval.invokeStatic (core.clj:3215)
+    clojure.core$eval.invoke (core.clj:3211)
+    nrepl.middleware.interruptible_eval$evaluate$fn__1311$fn__1312.invoke (interruptible_eval.clj:87)
+    clojure.lang.AFn.applyToHelper (AFn.java:152)
+    clojure.lang.AFn.applyTo (AFn.java:144)
+    clojure.core$apply.invokeStatic (core.clj:667)
+    clojure.core$with_bindings_STAR_.invokeStatic (core.clj:1990)
+    clojure.core$with_bindings_STAR_.doInvoke (core.clj:1990)
+    clojure.lang.RestFn.invoke (RestFn.java:425)
+    nrepl.middleware.interruptible_eval$evaluate$fn__1311.invoke (interruptible_eval.clj:87)
+    clojure.main$repl$read_eval_print__9206$fn__9209.invoke (main.clj:437)
+    clojure.main$repl$read_eval_print__9206.invoke (main.clj:437)
+    clojure.main$repl$fn__9215.invoke (main.clj:458)
+    clojure.main$repl.invokeStatic (main.clj:458)
+    clojure.main$repl.doInvoke (main.clj:368)
+    clojure.lang.RestFn.invoke (RestFn.java:1523)
+    nrepl.middleware.interruptible_eval$evaluate.invokeStatic (interruptible_eval.clj:84)
+    nrepl.middleware.interruptible_eval$evaluate.invoke (interruptible_eval.clj:56)
+    nrepl.middleware.interruptible_eval$interruptible_eval$fn__1344$fn__1348.invoke (interruptible_eval.clj:152)
+    clojure.lang.AFn.run (AFn.java:22)
+    nrepl.middleware.session$session_exec$main_loop__1414$fn__1418.invoke (session.clj:218)
+    nrepl.middleware.session$session_exec$main_loop__1414.invoke (session.clj:217)
+    clojure.lang.AFn.run (AFn.java:22)
+    java.lang.Thread.run (Thread.java:833)
+nil
+clj꞉uri-utils.core-test꞉> 
+true
+clj꞉uri-utils.core-test꞉> 
+nil
+clj꞉uri-utils.core-test꞉> 
+#'uri-utils.core-test/uris-equals-test
+clj꞉uri-utils.core-test꞉> 
+
+ERROR in (uris-equals-test) (form-init3592872618423109150.clj:6)
+Uncaught exception, not in assertion.
+expected: nil
+  actual: java.lang.ClassCastException: class java.lang.Boolean cannot be cast to class clojure.lang.IFn (java.lang.Boolean is in module java.base of loader 'bootstrap'; clojure.lang.IFn is in unnamed module of loader 'app')
+ at uri_utils.core_test$fn__8233.invokeStatic (form-init3592872618423109150.clj:6)
+    uri_utils.core_test/fn (form-init3592872618423109150.clj:5)
+    clojure.test$test_var$fn__9856.invoke (test.clj:717)
+    clojure.test$test_var.invokeStatic (test.clj:717)
+    clojure.test$test_var.invoke (test.clj:708)
+    uri_utils.core_test$uris_equals_test.invokeStatic (form-init3592872618423109150.clj:5)
+    uri_utils.core_test$uris_equals_test.invoke (form-init3592872618423109150.clj:5)
+    uri_utils.core_test$eval8240.invokeStatic (form-init3592872618423109150.clj:11)
+    uri_utils.core_test$eval8240.invoke (form-init3592872618423109150.clj:11)
+    clojure.lang.Compiler.eval (Compiler.java:7194)
+    clojure.lang.Compiler.eval (Compiler.java:7149)
+    clojure.core$eval.invokeStatic (core.clj:3215)
+    clojure.core$eval.invoke (core.clj:3211)
+    nrepl.middleware.interruptible_eval$evaluate$fn__1311$fn__1312.invoke (interruptible_eval.clj:87)
+    clojure.lang.AFn.applyToHelper (AFn.java:152)
+    clojure.lang.AFn.applyTo (AFn.java:144)
+    clojure.core$apply.invokeStatic (core.clj:667)
+    clojure.core$with_bindings_STAR_.invokeStatic (core.clj:1990)
+    clojure.core$with_bindings_STAR_.doInvoke (core.clj:1990)
+    clojure.lang.RestFn.invoke (RestFn.java:425)
+    nrepl.middleware.interruptible_eval$evaluate$fn__1311.invoke (interruptible_eval.clj:87)
+    clojure.main$repl$read_eval_print__9206$fn__9209.invoke (main.clj:437)
+    clojure.main$repl$read_eval_print__9206.invoke (main.clj:437)
+    clojure.main$repl$fn__9215.invoke (main.clj:458)
+    clojure.main$repl.invokeStatic (main.clj:458)
+    clojure.main$repl.doInvoke (main.clj:368)
+    clojure.lang.RestFn.invoke (RestFn.java:1523)
+    nrepl.middleware.interruptible_eval$evaluate.invokeStatic (interruptible_eval.clj:84)
+    nrepl.middleware.interruptible_eval$evaluate.invoke (interruptible_eval.clj:56)
+    nrepl.middleware.interruptible_eval$interruptible_eval$fn__1344$fn__1348.invoke (interruptible_eval.clj:152)
+    clojure.lang.AFn.run (AFn.java:22)
+    nrepl.middleware.session$session_exec$main_loop__1414$fn__1418.invoke (session.clj:218)
+    nrepl.middleware.session$session_exec$main_loop__1414.invoke (session.clj:217)
+    clojure.lang.AFn.run (AFn.java:22)
+    java.lang.Thread.run (Thread.java:833)
+nil
+clj꞉uri-utils.core-test꞉> 
+#'uri-utils.core-test/uris-equals-test
+clj꞉uri-utils.core-test꞉> 
+nil
+clj꞉uri-utils.core-test꞉> 
+#'uri-utils.core-test/uris-equals-test
+clj꞉uri-utils.core-test꞉> 
+nil
+clj꞉uri-utils.core-test꞉> 
+#'uri-utils.core-test/uris-equals-test
+clj꞉uri-utils.core-test꞉> 
+
+FAIL in (uris-equals-test) (form-init3592872618423109150.clj:8)
+If the same two URIs are equal.
+expected: (= 0 1)
+  actual: (not (= 0 1))
+nil
+clj꞉uri-utils.core-test꞉> 
+#'uri-utils.core-test/uris-equals-test
+clj꞉uri-utils.core-test꞉> 
+
+FAIL in (uris-equals-test) (form-init3592872618423109150.clj:8)
+If the same two URIs are equal.
+expected: (true? false)
+  actual: (not (true? false))
+nil
+clj꞉uri-utils.core-test꞉> 
+#'uri-utils.core-test/uris-equals-test
+clj꞉uri-utils.core-test꞉> 
+nil
+clj꞉uri-utils.core-test꞉> 
+#'uri-utils.core-test/uris-equals-test
+clj꞉uri-utils.core-test꞉> 
+
+FAIL in (uris-equals-test) (form-init3592872618423109150.clj:8)
+If the same two URIs are equal.
+expected: (true? (uris-equals "www.google.com" "www.google.come"))
+  actual: (not (true? false))
+nil
+clj꞉uri-utils.core-test꞉> 
+#'uri-utils.core-test/uris-equals-test
+clj꞉uri-utils.core-test꞉> 
+nil
+clj꞉uri-utils.core-test꞉> 
+#'uri-utils.core-test/uris-not-equals-test
+clj꞉uri-utils.core-test꞉> 
+#'uri-utils.core-test/uris-not-equals-test
+clj꞉uri-utils.core-test꞉> 
+
+FAIL in (uris-not-equals-test) (form-init3592872618423109150.clj:14)
+If the same two URIs are equal.
+expected: (false? (uris-equals "www.google.com" "WWW.GOOGLE.COM"))
+  actual: (not (false? true))
+nil
+clj꞉uri-utils.core-test꞉> 
+nil
+clj꞉uri-utils.core-test꞉> 
+#'uri-utils.core-test/uris-case-insesnitive-equals-test
+clj꞉uri-utils.core-test꞉> 
+
+FAIL in (uris-case-insesnitive-equals-test) (form-init3592872618423109150.clj:20)
+If the same two URIs are equal.
+expected: (false? (uris-equals "www.google.com" "WWW.GOOGLE.COM" true))
+  actual: (not (false? true))
+nil
+clj꞉uri-utils.core-test꞉> 
+#'uri-utils.comparator.map-comparator/uri-equals
+clj꞉uri-utils.comparator.map-comparator꞉> 
+#'uri-utils.core/uris-equals
+clj꞉uri-utils.core꞉> 
+#'uri-utils.core-test/uris-case-insesnitive-equals-test
+clj꞉uri-utils.core-test꞉> 
+
+FAIL in (uris-case-insesnitive-equals-test) (form-init3592872618423109150.clj:20)
+If the same two URIs are equal.
+expected: (false? (uris-equals "www.google.com" "WWW.GOOGLE.COM" true))
+  actual: (not (false? true))
+nil
+clj꞉uri-utils.core-test꞉> 
+#'uri-utils.core-test/uris-case-insesnitive-equals-test
+clj꞉uri-utils.core-test꞉> 
+nil
+clj꞉uri-utils.core-test꞉> 
+
+FAIL in (uris-not-equals-test) (form-init3592872618423109150.clj:14)
+If the same two URIs are equal.
+expected: (false? (uris-equals "www.google.com" "WWW.GOOGLE.COM"))
+  actual: (not (false? true))
+nil
+clj꞉uri-utils.core-test꞉> 
+nil
+clj꞉uri-utils.core-test꞉> 
+
+FAIL in (uris-not-equals-test) (form-init3592872618423109150.clj:14)
+If the same two URIs are equal.
+expected: (false? (uris-equals "www.google.com" "WWW.GOOGLE.COM"))
+  actual: (not (false? true))
+nil
+clj꞉uri-utils.core-test꞉> 
+#'uri-utils.core-test/uris-case-insesnitive-equals-test
+clj꞉uri-utils.core-test꞉> 
+nil
+clj꞉uri-utils.core-test꞉> 
+#'uri-utils.core-test/uris-not-equals-test
+clj꞉uri-utils.core-test꞉> 
+
+FAIL in (uris-not-equals-test) (form-init3592872618423109150.clj:14)
+If the same two URIs are equal.
+expected: (false? (uris-equals "www.google.com" "WWW.GOOGLE.COM"))
+  actual: (not (false? true))
+nil
+clj꞉uri-utils.core-test꞉> 
+true
+clj꞉uri-utils.core-test꞉> 
+#'uri-utils.comparator.map-comparator/uri-equals
+clj꞉uri-utils.comparator.map-comparator꞉> 
+nil
+clj꞉uri-utils.core-test꞉> 
+true
+clj꞉uri-utils.core-test꞉> 
+nil
+clj꞉uri-utils.core-test꞉> 
+
+FAIL in (uris-not-equals-test) (form-init3592872618423109150.clj:14)
+If the same two URIs are equal.
+expected: (false? (uris-equals "www.google.com" "WWW.GOOGLE.COM"))
+  actual: (not (false? true))
+nil
+clj꞉uri-utils.core-test꞉> 
+nil
+clj꞉uri-utils.core-test꞉> 
+{:schema nil, :host "WWW.GOOGLE.COM", :path nil, :query [{:name "null", :value nil}]}
+clj꞉uri-utils.parser.regex-parser꞉> 
+false
+clj꞉uri-utils.comparator.map-comparator꞉> 
+#'uri-utils.comparator.map-comparator/uri-equals
+clj꞉uri-utils.comparator.map-comparator꞉> 
+false
+clj꞉uri-utils.comparator.map-comparator꞉> 
+true
+clj꞉uri-utils.core꞉> 
+true
+clj꞉uri-utils.core꞉> 
+; Syntax error compiling at (src/uri_utils/core.clj:10:1).
+; Unable to resolve symbol: uri-equals in this context
+clj꞉uri-utils.core꞉> 
+nil
+clj꞉uri-utils.core꞉> 
+#'uri-utils.core/uri-equals
+clj꞉uri-utils.core꞉> 
+true
+clj꞉uri-utils.core꞉> 
+true
+clj꞉uri-utils.core꞉> 
+false
+clj꞉uri-utils.comparator.map-comparator꞉> 
+true
+clj꞉uri-utils.comparator.map-comparator꞉> 
+true
+clj꞉uri-utils.comparator.map-comparator꞉> 
+false
+clj꞉uri-utils.comparator.map-comparator꞉> 
+true
+clj꞉uri-utils.core꞉> 
+true
+clj꞉uri-utils.core꞉> 
+true
+clj꞉uri-utils.core꞉> 
+true
+clj꞉uri-utils.core꞉> 
+false
+clj꞉uri-utils.core꞉> 
+false
+clj꞉uri-utils.core꞉> 
+false
+clj꞉uri-utils.core꞉> 
+true
+clj꞉uri-utils.core꞉> 
+true
+clj꞉uri-utils.core꞉> 
+#'uri-utils.core/uri-equals
+clj꞉uri-utils.core꞉> 
+false
+clj꞉uri-utils.core꞉> 
+#'uri-utils.core/uri-equals
+clj꞉uri-utils.core꞉> 
+#'uri-utils.core/uri-equals
+clj꞉uri-utils.core꞉> 
+#'uri-utils.core-test/uri-case-insesnitive-equals-test
+clj꞉uri-utils.core-test꞉> 
+nil
+clj꞉uri-utils.core-test꞉> 
+#'uri-utils.core-test/uri-equals-test
+clj꞉uri-utils.core-test꞉> 
+#'uri-utils.core-test/uri-not-equals-test
+clj꞉uri-utils.core-test꞉> 
+#'uri-utils.core-test/uri-case-insesnitive-equals-test
+clj꞉uri-utils.core-test꞉> 
+nil
+clj꞉uri-utils.core-test꞉> 
+nil
+clj꞉uri-utils.core-test꞉> 
+
+FAIL in (uri-equals-test) (form-init3592872618423109150.clj:8)
+If the same two URIs are equal.
+expected: (true? (uri-equals "www.google.com" "www.google.com"))
+  actual: (not (true? false))
+nil
+clj꞉uri-utils.core-test꞉> 
+#'uri-utils.core/uri-equals
+clj꞉uri-utils.core꞉> 
+#'uri-utils.core-test/uri-case-insesnitive-equals-test
+clj꞉uri-utils.core-test꞉> 
+nil
+clj꞉uri-utils.core-test꞉> 
+nil
+clj꞉uri-utils.core-test꞉> 
+nil
+clj꞉uri-utils.core-test꞉> 
+#'uri-utils.core/uri-equals
+clj꞉uri-utils.core꞉> 
+#'uri-utils.comparator.map-comparator/uri-equals
+clj꞉uri-utils.comparator.map-comparator꞉> 
+#'uri-utils.comparator.map-comparator/uri-equals
+clj꞉uri-utils.comparator.map-comparator꞉> 
+nil
+clj꞉uri-utils.core-test꞉> 
+
+FAIL in (uri-not-equals-test) (form-init3592872618423109150.clj:14)
+If the same two URIs are equal.
+expected: (false? (uri-equals "www.google.com" "WWW.GOOGLE.COM"))
+  actual: (not (false? true))
+nil
+clj꞉uri-utils.core-test꞉> 
+
+FAIL in (uri-case-insesnitive-equals-test) (form-init3592872618423109150.clj:20)
+If the same two URIs are equal.
+expected: (true? (uri-equals "www.google.com" "WWW.GOOGLE.COM" true))
+  actual: (not (true? false))
+nil
+clj꞉uri-utils.core-test꞉> 
+
+FAIL in (uri-case-insesnitive-equals-test) (form-init3592872618423109150.clj:20)
+If the same two URIs are equal.
+expected: (true? (uri-equals "www.google.com" "WWW.GOOGLE.COM" true))
+  actual: (not (true? false))
+nil
+clj꞉uri-utils.core-test꞉> 
+nil
+clj꞉uri-utils.core-test꞉> 
+#'uri-utils.core-test/uri-equals-test
+clj꞉uri-utils.core-test꞉> 
+#'uri-utils.core-test/uri-not-equals-test
+clj꞉uri-utils.core-test꞉> 
+#'uri-utils.core-test/uri-case-insesnitive-equals-test
+clj꞉uri-utils.core-test꞉> 
+nil
+clj꞉uri-utils.core-test꞉> 
+
+FAIL in (uri-not-equals-test) (form-init3592872618423109150.clj:14)
+If the same two URIs are equal.
+expected: (false? (uri-equals "www.google.com" "WWW.GOOGLE.COM"))
+  actual: (not (false? true))
+nil
+clj꞉uri-utils.core-test꞉> 
+
+FAIL in (uri-case-insesnitive-equals-test) (form-init3592872618423109150.clj:20)
+If the same two URIs are equal.
+expected: (true? (uri-equals "www.google.com" "WWW.GOOGLE.COM" true))
+  actual: (not (true? false))
+nil
+clj꞉uri-utils.core-test꞉> 
+#'uri-utils.core/uri-equals
+clj꞉uri-utils.core꞉> 
+; Syntax error compiling at (src/uri_utils/core.clj:7:7).
+; Unable to resolve symbol: tr in this context
+clj꞉uri-utils.core꞉> 
+#function[clojure.core/true?]
+clj꞉uri-utils.core꞉> 
+#function[uri-utils.comparator.map-comparator/uri-equals]
+clj꞉uri-utils.core꞉> 
+#'uri-utils.core/uri-equals
+clj꞉uri-utils.core꞉> 
+#'uri-utils.core/uri-equals
+clj꞉uri-utils.core꞉> 
+#'uri-utils.comparator.map-comparator/uri-equals
+clj꞉uri-utils.comparator.map-comparator꞉> 
+nil
+clj꞉uri-utils.core-test꞉> 
+nil
+clj꞉uri-utils.core-test꞉> 
+
+FAIL in (uri-not-equals-test) (form-init3592872618423109150.clj:14)
+If the same two URIs are equal.
+expected: (false? (uri-equals "www.google.com" "WWW.GOOGLE.COM"))
+  actual: (not (false? true))
+nil
+clj꞉uri-utils.core-test꞉> 
+nil
+clj꞉uri-utils.core-test꞉> 
+false
+clj꞉uri-utils.comparator.map-comparator꞉> 
+#'uri-utils.core/uri-equals
+clj꞉uri-utils.core꞉> 
+#'uri-utils.core/uri-equals
+clj꞉uri-utils.core꞉> 
+nil
+clj꞉uri-utils.core꞉> 
+#'uri-utils.core/uri-equals
+clj꞉uri-utils.core꞉> 
+#'uri-utils.comparator.map-comparator/uri-equals
+clj꞉uri-utils.comparator.map-comparator꞉> 
+nil
+clj꞉uri-utils.core-test꞉> 
+#'uri-utils.core-test/uri-equals-test
+clj꞉uri-utils.core-test꞉> 
+#'uri-utils.core-test/uri-not-equals-test
+clj꞉uri-utils.core-test꞉> 
+#'uri-utils.core-test/uri-case-insesnitive-equals-test
+clj꞉uri-utils.core-test꞉> 
+nil
+clj꞉uri-utils.core-test꞉> 
+nil
+clj꞉uri-utils.core-test꞉> 
+nil
+clj꞉uri-utils.core-test꞉> 
+; nREPL Connection was closed
